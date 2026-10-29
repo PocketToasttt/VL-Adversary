@@ -1,0 +1,61 @@
+{
+  "scene_id": "straight_02",
+  "morphology": "straight",
+  "ego_edge": "426488940#2",
+  "junction_id": "61377248",
+  "road_length_m": 119.6,
+  "road_lanes": 3,
+  "planned_vehicles": 6,
+  "vehicles": [
+    {
+      "id": "0",
+      "role": "ego",
+      "start_edge": "426488940#2",
+      "lane": 0,
+      "position_m": 65.8,
+      "route": "426488940#2 427635744#0"
+    },
+    {
+      "id": "1",
+      "role": "traffic",
+      "start_edge": "426488940#2",
+      "lane": 0,
+      "position_m": 100.8,
+      "route": "426488940#2 427635744#0"
+    },
+    {
+      "id": "2",
+      "role": "traffic",
+      "start_edge": "426488940#2",
+      "lane": 1,
+      "position_m": 73.8,
+      "route": "426488940#2 427635744#0"
+    },
+    {
+      "id": "3",
+      "role": "traffic",
+      "start_edge": "426488940#2",
+      "lane": 1,
+      "position_m": 35.8,
+      "route": "426488940#2 427635744#0"
+    },
+    {
+      "id": "4",
+      "role": "traffic",
+      "start_edge": "426488940#2",
+      "lane": 0,
+      "position_m": 33.8,
+      "route": "426488940#2 427635744#0"
+    },
+    {
+      "id": "5",
+      "role": "traffic",
+      "start_edge": "426488940#2",
+      "lane": 1,
+      "position_m": 17.8,
+      "route": "426488940#2 427635744#0"
+    }
+  ],
+  "density_profile": "balanced",
+  "purpose": "SUMO traffic preview only; no attack"
+}

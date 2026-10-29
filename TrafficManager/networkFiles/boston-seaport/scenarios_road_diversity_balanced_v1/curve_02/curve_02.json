@@ -1,0 +1,93 @@
+{
+  "scene_id": "curve_02",
+  "morphology": "curve",
+  "ego_edge": "544506505#1",
+  "junction_id": "cluster_2003929472_2003929475_2965310055_61443829",
+  "road_length_m": 78.2,
+  "road_lanes": 2,
+  "planned_vehicles": 10,
+  "vehicles": [
+    {
+      "id": "0",
+      "role": "ego",
+      "start_edge": "544506505#1",
+      "lane": 0,
+      "position_m": 43.2,
+      "route": "544506505#1 541022697"
+    },
+    {
+      "id": "1",
+      "role": "traffic",
+      "start_edge": "544506505#1",
+      "lane": 1,
+      "position_m": 51.2,
+      "route": "544506505#1 541022697"
+    },
+    {
+      "id": "2",
+      "role": "traffic",
+      "start_edge": "544506505#1",
+      "lane": 1,
+      "position_m": 13.2,
+      "route": "544506505#1 541022697"
+    },
+    {
+      "id": "3",
+      "role": "traffic",
+      "start_edge": "544506505#1",
+      "lane": 0,
+      "position_m": 11.2,
+      "route": "544506505#1 541022697"
+    },
+    {
+      "id": "4",
+      "role": "traffic",
+      "start_edge": "426498206",
+      "lane": 0,
+      "position_m": 38.8,
+      "route": "426498206 541022699"
+    },
+    {
+      "id": "5",
+      "role": "traffic",
+      "start_edge": "426498206",
+      "lane": 1,
+      "position_m": 24.8,
+      "route": "426498206 541022699"
+    },
+    {
+      "id": "6",
+      "role": "traffic",
+      "start_edge": "426498206",
+      "lane": 0,
+      "position_m": 10.8,
+      "route": "426498206 541022699"
+    },
+    {
+      "id": "7",
+      "role": "traffic",
+      "start_edge": "290281426#0",
+      "lane": 0,
+      "position_m": 45,
+      "route": "290281426#0 290281426#1"
+    },
+    {
+      "id": "8",
+      "role": "traffic",
+      "start_edge": "290281426#0",
+      "lane": 1,
+      "position_m": 30,
+      "route": "290281426#0 290281426#1"
+    },
+    {
+      "id": "9",
+      "role": "traffic",
+      "start_edge": "290281426#0",
+      "lane": 0,
+      "position_m": 15,
+      "route": "290281426#0 290281426#1"
+    }
+  ],
+  "density_profile": "balanced",
+  "purpose": "SUMO traffic preview only; no attack"
+}

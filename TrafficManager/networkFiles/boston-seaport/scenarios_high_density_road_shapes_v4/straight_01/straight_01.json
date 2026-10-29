@@ -1,0 +1,188 @@
+{
+  "scene_id": "straight_01",
+  "morphology": "straight",
+  "ego_edge": "-1120503844",
+  "junction_id": "61377241",
+  "road_length_m": 204.8,
+  "road_lanes": 2,
+  "planned_vehicles": 22,
+  "vehicles": [
+    {
+      "id": "0",
+      "role": "ego",
+      "start_edge": "-1120503844",
+      "lane": 0,
+      "position_m": 112.7,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "1",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 0,
+      "position_m": 182.3,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "2",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 0,
+      "position_m": 168.8,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "3",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 0,
+      "position_m": 155.3,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "4",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 0,
+      "position_m": 141.8,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "5",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 1,
+      "position_m": 185.3,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "6",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 1,
+      "position_m": 171.8,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "7",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 1,
+      "position_m": 158.3,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "8",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 1,
+      "position_m": 144.8,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "9",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 1,
+      "position_m": 131.3,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "10",
+      "role": "traffic",
+      "start_edge": "-1120503844",
+      "lane": 1,
+      "position_m": 117.8,
+      "route": "-1120503844 -85890979"
+    },
+    {
+      "id": "11",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 0,
+      "position_m": 75.5,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "12",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 0,
+      "position_m": 62.0,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "13",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 0,
+      "position_m": 48.5,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "14",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 0,
+      "position_m": 35.0,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "15",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 0,
+      "position_m": 21.5,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "16",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 0,
+      "position_m": 8.0,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "17",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 1,
+      "position_m": 65.0,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "18",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 1,
+      "position_m": 51.5,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "19",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 1,
+      "position_m": 38.0,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "20",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 1,
+      "position_m": 24.5,
+      "route": "426488942 85891007#0"
+    },
+    {
+      "id": "21",
+      "role": "traffic",
+      "start_edge": "426488942",
+      "lane": 1,
+      "position_m": 11.0,
+      "route": "426488942 85891007#0"
+    }
+  ],
+  "purpose": "SUMO traffic preview only; no attack"
+}

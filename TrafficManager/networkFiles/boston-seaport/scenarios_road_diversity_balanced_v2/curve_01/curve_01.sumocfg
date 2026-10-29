@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration><input><net-file value="../../osm.net.xml" /><route-files value="curve_01.rou.xml" /></input><time><begin value="0" /><end value="10" /></time><processing><collision.action value="warn" /><collision.check-junctions value="true" /></processing></configuration>

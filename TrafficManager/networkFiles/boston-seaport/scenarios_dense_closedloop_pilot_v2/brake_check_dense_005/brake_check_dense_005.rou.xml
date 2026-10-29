@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="default_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,255,255" />
+    <vType id="ego_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,0,0" />
+    <vType id="attacker_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.8" decel="5.0" sigma="0.05" color="255,128,0" />
+    <vehicle id="221" type="default_type" depart="0.00" departLane="0" departPos="113.8" departSpeed="2.4">
+        <route edges="-8642161 292967029#0 292967029#1 533607551 426498204" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="following" />
+        <param key="attack_type" value="brake_check" />
+        <param key="attacker_id" value="219" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="220" type="default_type" depart="0.00" departLane="0" departPos="100.9" departSpeed="5.2">
+        <route edges="-8642161 292967029#0 292967029#1 533607551 426498204" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="following" />
+        <param key="attack_type" value="brake_check" />
+        <param key="attacker_id" value="219" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="219" type="attacker_type" depart="0.00" departLane="0" departPos="86.9" departSpeed="3.4">
+        <route edges="-8642161 292967029#0 292967029#1 533607551 426498204" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="following" />
+        <param key="attack_type" value="brake_check" />
+        <param key="attacker_id" value="219" />
+        <param key="role" value="attacker_candidate" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="218" type="ego_type" depart="0.00" departLane="0" departPos="68.9" departSpeed="5.0">
+        <route edges="-8642161 292967029#0 292967029#1 533607551 426498204" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="following" />
+        <param key="attack_type" value="brake_check" />
+        <param key="attacker_id" value="219" />
+        <param key="role" value="ego" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="217" type="default_type" depart="0.00" departLane="0" departPos="54.8" departSpeed="2.7">
+        <route edges="-8642161 292967029#0 292967029#1 533607551 426498204" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="following" />
+        <param key="attack_type" value="brake_check" />
+        <param key="attacker_id" value="219" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="216" type="default_type" depart="0.00" departLane="0" departPos="42.6" departSpeed="5.1">
+        <route edges="-8642161 292967029#0 292967029#1 533607551 426498204" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="following" />
+        <param key="attack_type" value="brake_check" />
+        <param key="attacker_id" value="219" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="222" type="default_type" depart="0.00" departLane="0" departPos="16.1" departSpeed="8.7">
+        <route edges="-8643657 85310729#1" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="following" />
+        <param key="attack_type" value="brake_check" />
+        <param key="attacker_id" value="219" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="223" type="default_type" depart="0.00" departLane="0" departPos="72.9" departSpeed="5.0">
+        <route edges="518404079#0 426659559#0 518404087" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="following" />
+        <param key="attack_type" value="brake_check" />
+        <param key="attacker_id" value="219" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="224" type="default_type" depart="0.00" departLane="0" departPos="21.0" departSpeed="5.0">
+        <route edges="-8642161 292967029#0 292967029#1 533607551 426498204" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="local_context" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="225" type="default_type" depart="0.00" departLane="0" departPos="9.9" departSpeed="5.0">
+        <route edges="-8642161 292967029#0 292967029#1 533607551 426498204" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="local_context" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+    <vehicle id="226" type="default_type" depart="0.00" departLane="0" departPos="128.8" departSpeed="5.7">
+        <route edges="-8642161 292967029#0 292967029#1 533607551 426498204" />
+        <param key="scene_id" value="brake_check_dense_005" />
+        <param key="scenario_type" value="local_context" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="218" />
+    </vehicle>
+</routes>

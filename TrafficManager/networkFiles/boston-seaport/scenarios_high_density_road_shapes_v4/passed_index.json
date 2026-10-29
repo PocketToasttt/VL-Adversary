@@ -1,0 +1,47 @@
+{
+  "purpose": "SUMO traffic preview only; no attack or closed-loop validation",
+  "scenes": [
+    {
+      "scene_id": "straight_01",
+      "morphology": "straight",
+      "ego_edge": "-1120503844",
+      "planned_vehicles": 22
+    },
+    {
+      "scene_id": "straight_02",
+      "morphology": "straight",
+      "ego_edge": "426488940#2",
+      "planned_vehicles": 15
+    },
+    {
+      "scene_id": "curve_01",
+      "morphology": "curve",
+      "ego_edge": "8640122",
+      "planned_vehicles": 23
+    },
+    {
+      "scene_id": "intersection_01",
+      "morphology": "intersection",
+      "ego_edge": "292967029#1",
+      "planned_vehicles": 51
+    },
+    {
+      "scene_id": "intersection_02",
+      "morphology": "intersection",
+      "ego_edge": "426491386#0",
+      "planned_vehicles": 50
+    },
+    {
+      "scene_id": "merge_01",
+      "morphology": "merge",
+      "ego_edge": "236579256",
+      "planned_vehicles": 43
+    },
+    {
+      "scene_id": "merge_02",
+      "morphology": "merge",
+      "ego_edge": "8648213#0",
+      "planned_vehicles": 43
+    }
+  ]
+}

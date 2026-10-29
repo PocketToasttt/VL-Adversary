@@ -1,0 +1,4778 @@
+[
+  {
+    "scene_id": "straight_01",
+    "morphology": "straight",
+    "ego_edge": "-1120503844",
+    "junction_id": "61377241",
+    "road_length_m": 204.8,
+    "road_lanes": 2,
+    "planned_vehicles": 23,
+    "vehicles": [
+      {
+        "id": "0",
+        "role": "ego",
+        "start_edge": "-1120503844",
+        "lane": 0,
+        "position_m": 112.7,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "1",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 0,
+        "position_m": 182.3,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "2",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 0,
+        "position_m": 168.8,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "3",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 0,
+        "position_m": 155.3,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "4",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 0,
+        "position_m": 141.8,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "5",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 0,
+        "position_m": 128.3,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "6",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 1,
+        "position_m": 185.3,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "7",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 1,
+        "position_m": 171.8,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "8",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 1,
+        "position_m": 158.3,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "9",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 1,
+        "position_m": 144.8,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "10",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 1,
+        "position_m": 131.3,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "11",
+        "role": "traffic",
+        "start_edge": "-1120503844",
+        "lane": 1,
+        "position_m": 117.8,
+        "route": "-1120503844 -85890979"
+      },
+      {
+        "id": "12",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 0,
+        "position_m": 75.5,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "13",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "14",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "15",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "16",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "17",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "18",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "19",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "20",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "21",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "426488942 85891007#0"
+      },
+      {
+        "id": "22",
+        "role": "traffic",
+        "start_edge": "426488942",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "426488942 85891007#0"
+      }
+    ],
+    "purpose": "SUMO traffic preview only; no attack",
+    "sumo_returncode": 0,
+    "inserted": 23,
+    "collisions": 0,
+    "snapshot_t2": {
+      "ego_present": true,
+      "active_vehicles": 22,
+      "nearby_60m": 19,
+      "nearby_80m": 21,
+      "vehicles": [
+        {
+          "id": "0",
+          "x": "359.01",
+          "y": "750.29",
+          "speed": "11.00",
+          "lane": "-1120503844_0",
+          "distance_to_ego_m": 0.0
+        },
+        {
+          "id": "1",
+          "x": "302.68",
+          "y": "790.50",
+          "speed": "10.49",
+          "lane": "-1120503844_0",
+          "distance_to_ego_m": 69.2
+        },
+        {
+          "id": "10",
+          "x": "345.26",
+          "y": "752.61",
+          "speed": "9.06",
+          "lane": "-1120503844_1",
+          "distance_to_ego_m": 13.9
+        },
+        {
+          "id": "11",
+          "x": "357.11",
+          "y": "744.15",
+          "speed": "8.87",
+          "lane": "-1120503844_1",
+          "distance_to_ego_m": 6.4
+        },
+        {
+          "id": "12",
+          "x": "367.33",
+          "y": "721.86",
+          "speed": "11.00",
+          "lane": "426488942_0",
+          "distance_to_ego_m": 29.6
+        },
+        {
+          "id": "13",
+          "x": "354.87",
+          "y": "730.76",
+          "speed": "10.47",
+          "lane": "426488942_0",
+          "distance_to_ego_m": 20.0
+        },
+        {
+          "id": "14",
+          "x": "342.61",
+          "y": "739.51",
+          "speed": "10.01",
+          "lane": "426488942_0",
+          "distance_to_ego_m": 19.6
+        },
+        {
+          "id": "15",
+          "x": "330.51",
+          "y": "748.15",
+          "speed": "9.61",
+          "lane": "426488942_0",
+          "distance_to_ego_m": 28.6
+        },
+        {
+          "id": "16",
+          "x": "318.53",
+          "y": "756.70",
+          "speed": "9.28",
+          "lane": "426488942_0",
+          "distance_to_ego_m": 41.0
+        },
+        {
+          "id": "17",
+          "x": "306.66",
+          "y": "765.18",
+          "speed": "9.01",
+          "lane": "426488942_0",
+          "distance_to_ego_m": 54.4
+        },
+        {
+          "id": "18",
+          "x": "361.93",
+          "y": "733.21",
+          "speed": "10.47",
+          "lane": "426488942_1",
+          "distance_to_ego_m": 17.3
+        },
+        {
+          "id": "19",
+          "x": "349.59",
+          "y": "742.02",
+          "speed": "10.05",
+          "lane": "426488942_1",
+          "distance_to_ego_m": 12.5
+        },
+        {
+          "id": "2",
+          "x": "315.03",
+          "y": "781.68",
+          "speed": "10.07",
+          "lane": "-1120503844_0",
+          "distance_to_ego_m": 54.0
+        },
+        {
+          "id": "20",
+          "x": "337.42",
+          "y": "750.71",
+          "speed": "9.69",
+          "lane": "426488942_1",
+          "distance_to_ego_m": 21.6
+        },
+        {
+          "id": "21",
+          "x": "325.39",
+          "y": "759.30",
+          "speed": "9.37",
+          "lane": "426488942_1",
+          "distance_to_ego_m": 34.8
+        },
+        {
+          "id": "22",
+          "x": "313.47",
+          "y": "767.81",
+          "speed": "9.11",
+          "lane": "426488942_1",
+          "distance_to_ego_m": 48.8
+        },
+        {
+          "id": "3",
+          "x": "327.21",
+          "y": "772.99",
+          "speed": "9.70",
+          "lane": "-1120503844_0",
+          "distance_to_ego_m": 39.1
+        },
+        {
+          "id": "4",
+          "x": "339.24",
+          "y": "764.40",
+          "speed": "9.38",
+          "lane": "-1120503844_0",
+          "distance_to_ego_m": 24.3
+        },
+        {
+          "id": "6",
+          "x": "296.46",
+          "y": "787.59",
+          "speed": "11.00",
+          "lane": ":61377241_0_1",
+          "distance_to_ego_m": 72.8
+        },
+        {
+          "id": "7",
+          "x": "309.13",
+          "y": "778.40",
+          "speed": "9.91",
+          "lane": "-1120503844_1",
+          "distance_to_ego_m": 57.3
+        },
+        {
+          "id": "8",
+          "x": "321.29",
+          "y": "769.72",
+          "speed": "9.58",
+          "lane": "-1120503844_1",
+          "distance_to_ego_m": 42.4
+        },
+        {
+          "id": "9",
+          "x": "333.33",
+          "y": "761.13",
+          "speed": "9.30",
+          "lane": "-1120503844_1",
+          "distance_to_ego_m": 27.9
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "scene_id": "straight_02",
+    "morphology": "straight",
+    "ego_edge": "426488940#2",
+    "junction_id": "61377248",
+    "road_length_m": 119.6,
+    "road_lanes": 3,
+    "planned_vehicles": 16,
+    "vehicles": [
+      {
+        "id": "0",
+        "role": "ego",
+        "start_edge": "426488940#2",
+        "lane": 0,
+        "position_m": 65.8,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "1",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 0,
+        "position_m": 97.1,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "2",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 0,
+        "position_m": 83.6,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "3",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 0,
+        "position_m": 43.1,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "4",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 0,
+        "position_m": 29.6,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "5",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 1,
+        "position_m": 100.1,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "6",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 1,
+        "position_m": 86.6,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "7",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 1,
+        "position_m": 73.1,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "8",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 1,
+        "position_m": 59.6,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "9",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 1,
+        "position_m": 46.1,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "10",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 1,
+        "position_m": 32.6,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "11",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 2,
+        "position_m": 89.6,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "12",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 2,
+        "position_m": 76.1,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "13",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 2,
+        "position_m": 62.6,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "14",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 2,
+        "position_m": 49.1,
+        "route": "426488940#2 427635744#0"
+      },
+      {
+        "id": "15",
+        "role": "traffic",
+        "start_edge": "426488940#2",
+        "lane": 2,
+        "position_m": 35.6,
+        "route": "426488940#2 427635744#0"
+      }
+    ],
+    "purpose": "SUMO traffic preview only; no attack",
+    "sumo_returncode": 0,
+    "inserted": 16,
+    "collisions": 0,
+    "snapshot_t2": {
+      "ego_present": true,
+      "active_vehicles": 16,
+      "nearby_60m": 15,
+      "nearby_80m": 15,
+      "vehicles": [
+        {
+          "id": "0",
+          "x": "199.57",
+          "y": "799.66",
+          "speed": "0.95",
+          "lane": "426488940#2_0",
+          "distance_to_ego_m": 0.0
+        },
+        {
+          "id": "1",
+          "x": "228.09",
+          "y": "817.48",
+          "speed": "5.40",
+          "lane": "426488940#2_0",
+          "distance_to_ego_m": 33.6
+        },
+        {
+          "id": "10",
+          "x": "167.40",
+          "y": "783.33",
+          "speed": "2.51",
+          "lane": "426488940#2_1",
+          "distance_to_ego_m": 36.1
+        },
+        {
+          "id": "11",
+          "x": "213.75",
+          "y": "816.06",
+          "speed": "0.00",
+          "lane": "426488940#2_2",
+          "distance_to_ego_m": 21.7
+        },
+        {
+          "id": "12",
+          "x": "204.01",
+          "y": "809.98",
+          "speed": "3.51",
+          "lane": "426488940#2_2",
+          "distance_to_ego_m": 11.2
+        },
+        {
+          "id": "13",
+          "x": "194.21",
+          "y": "800.09",
+          "speed": "2.70",
+          "lane": "426488940#2_1",
+          "distance_to_ego_m": 5.4
+        },
+        {
+          "id": "14",
+          "x": "182.86",
+          "y": "796.77",
+          "speed": "5.19",
+          "lane": "426488940#2_2",
+          "distance_to_ego_m": 17.0
+        },
+        {
+          "id": "15",
+          "x": "170.88",
+          "y": "789.28",
+          "speed": "5.28",
+          "lane": "426488940#2_2",
+          "distance_to_ego_m": 30.5
+        },
+        {
+          "id": "2",
+          "x": "212.69",
+          "y": "807.86",
+          "speed": "0.10",
+          "lane": "426488940#2_0",
+          "distance_to_ego_m": 15.5
+        },
+        {
+          "id": "3",
+          "x": "180.35",
+          "y": "787.65",
+          "speed": "1.52",
+          "lane": "426488940#2_0",
+          "distance_to_ego_m": 22.7
+        },
+        {
+          "id": "4",
+          "x": "168.76",
+          "y": "780.40",
+          "speed": "2.00",
+          "lane": "426488940#2_0",
+          "distance_to_ego_m": 36.3
+        },
+        {
+          "id": "5",
+          "x": "235.18",
+          "y": "821.91",
+          "speed": "7.26",
+          "lane": "426488940#2_0",
+          "distance_to_ego_m": 42.0
+        },
+        {
+          "id": "6",
+          "x": "214.18",
+          "y": "812.56",
+          "speed": "2.78",
+          "lane": "426488940#2_1",
+          "distance_to_ego_m": 19.5
+        },
+        {
+          "id": "7",
+          "x": "201.95",
+          "y": "804.92",
+          "speed": "0.55",
+          "lane": "426488940#2_1",
+          "distance_to_ego_m": 5.8
+        },
+        {
+          "id": "8",
+          "x": "192.23",
+          "y": "795.07",
+          "speed": "1.00",
+          "lane": "426488940#2_0",
+          "distance_to_ego_m": 8.7
+        },
+        {
+          "id": "9",
+          "x": "179.10",
+          "y": "790.64",
+          "speed": "2.52",
+          "lane": "426488940#2_1",
+          "distance_to_ego_m": 22.4
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "scene_id": "curve_01",
+    "morphology": "curve",
+    "ego_edge": "8640122",
+    "junction_id": "61496106",
+    "road_length_m": 147.8,
+    "road_lanes": 3,
+    "planned_vehicles": 24,
+    "vehicles": [
+      {
+        "id": "0",
+        "role": "ego",
+        "start_edge": "8640122",
+        "lane": 0,
+        "position_m": 81.3,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "1",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 0,
+        "position_m": 125.3,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "2",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 0,
+        "position_m": 111.8,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "3",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 0,
+        "position_m": 98.3,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "4",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 0,
+        "position_m": 57.8,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "5",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 1,
+        "position_m": 128.3,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "6",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 1,
+        "position_m": 114.8,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "7",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 1,
+        "position_m": 101.3,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "8",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 1,
+        "position_m": 87.8,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "9",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 1,
+        "position_m": 74.3,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "10",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 1,
+        "position_m": 60.8,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "11",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 2,
+        "position_m": 117.8,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "12",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 2,
+        "position_m": 104.3,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "13",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 2,
+        "position_m": 90.8,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "14",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 2,
+        "position_m": 77.3,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "15",
+        "role": "traffic",
+        "start_edge": "8640122",
+        "lane": 2,
+        "position_m": 63.8,
+        "route": "8640122 591217318"
+      },
+      {
+        "id": "16",
+        "role": "traffic",
+        "start_edge": "591217318",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "591217318 8638390#0"
+      },
+      {
+        "id": "17",
+        "role": "traffic",
+        "start_edge": "591217318",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "591217318 8638390#0"
+      },
+      {
+        "id": "18",
+        "role": "traffic",
+        "start_edge": "591217318",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "591217318 8638390#0"
+      },
+      {
+        "id": "19",
+        "role": "traffic",
+        "start_edge": "591217318",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "591217318 8638390#0"
+      },
+      {
+        "id": "20",
+        "role": "traffic",
+        "start_edge": "591217318",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "591217318 8638390#0"
+      },
+      {
+        "id": "21",
+        "role": "traffic",
+        "start_edge": "591217318",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "591217318 8638390#0"
+      },
+      {
+        "id": "22",
+        "role": "traffic",
+        "start_edge": "591217318",
+        "lane": 2,
+        "position_m": 27.5,
+        "route": "591217318 8638390#0"
+      },
+      {
+        "id": "23",
+        "role": "traffic",
+        "start_edge": "591217318",
+        "lane": 2,
+        "position_m": 14.0,
+        "route": "591217318 8638390#0"
+      }
+    ],
+    "purpose": "SUMO traffic preview only; no attack",
+    "sumo_returncode": 0,
+    "inserted": 24,
+    "collisions": 0,
+    "snapshot_t2": {
+      "ego_present": true,
+      "active_vehicles": 24,
+      "nearby_60m": 15,
+      "nearby_80m": 15,
+      "vehicles": [
+        {
+          "id": "0",
+          "x": "133.72",
+          "y": "846.47",
+          "speed": "9.57",
+          "lane": "8640122_0",
+          "distance_to_ego_m": 0.0
+        },
+        {
+          "id": "1",
+          "x": "97.44",
+          "y": "825.21",
+          "speed": "10.49",
+          "lane": "8640122_0",
+          "distance_to_ego_m": 42.1
+        },
+        {
+          "id": "10",
+          "x": "161.52",
+          "y": "857.02",
+          "speed": "8.60",
+          "lane": "8640122_1",
+          "distance_to_ego_m": 29.7
+        },
+        {
+          "id": "11",
+          "x": "110.90",
+          "y": "819.19",
+          "speed": "11.00",
+          "lane": "8640122_2",
+          "distance_to_ego_m": 35.6
+        },
+        {
+          "id": "12",
+          "x": "125.20",
+          "y": "827.48",
+          "speed": "10.47",
+          "lane": "8640122_2",
+          "distance_to_ego_m": 20.8
+        },
+        {
+          "id": "13",
+          "x": "139.28",
+          "y": "835.61",
+          "speed": "10.01",
+          "lane": "8640122_2",
+          "distance_to_ego_m": 12.2
+        },
+        {
+          "id": "14",
+          "x": "153.12",
+          "y": "843.72",
+          "speed": "9.61",
+          "lane": "8640122_2",
+          "distance_to_ego_m": 19.6
+        },
+        {
+          "id": "15",
+          "x": "166.14",
+          "y": "852.81",
+          "speed": "9.28",
+          "lane": "8640122_2",
+          "distance_to_ego_m": 33.0
+        },
+        {
+          "id": "16",
+          "x": "30.53",
+          "y": "781.45",
+          "speed": "9.82",
+          "lane": ":cluster_5643957498_5757110023_0_0",
+          "distance_to_ego_m": 122.0
+        },
+        {
+          "id": "17",
+          "x": "42.99",
+          "y": "789.76",
+          "speed": "9.54",
+          "lane": "591217318_0",
+          "distance_to_ego_m": 107.0
+        },
+        {
+          "id": "18",
+          "x": "55.37",
+          "y": "797.90",
+          "speed": "9.29",
+          "lane": "591217318_0",
+          "distance_to_ego_m": 92.2
+        },
+        {
+          "id": "19",
+          "x": "30.60",
+          "y": "774.01",
+          "speed": "11.00",
+          "lane": ":cluster_5643957498_5757110023_0_1",
+          "distance_to_ego_m": 126.0
+        },
+        {
+          "id": "2",
+          "x": "109.45",
+          "y": "832.46",
+          "speed": "10.07",
+          "lane": "8640122_0",
+          "distance_to_ego_m": 28.0
+        },
+        {
+          "id": "20",
+          "x": "48.32",
+          "y": "785.96",
+          "speed": "6.54",
+          "lane": "591217318_1",
+          "distance_to_ego_m": 104.7
+        },
+        {
+          "id": "21",
+          "x": "62.66",
+          "y": "795.39",
+          "speed": "2.76",
+          "lane": "591217318_1",
+          "distance_to_ego_m": 87.5
+        },
+        {
+          "id": "22",
+          "x": "41.61",
+          "y": "781.54",
+          "speed": "9.54",
+          "lane": "591217318_1",
+          "distance_to_ego_m": 112.7
+        },
+        {
+          "id": "23",
+          "x": "56.79",
+          "y": "791.54",
+          "speed": "5.43",
+          "lane": "591217318_1",
+          "distance_to_ego_m": 94.5
+        },
+        {
+          "id": "3",
+          "x": "121.43",
+          "y": "839.38",
+          "speed": "9.70",
+          "lane": "8640122_0",
+          "distance_to_ego_m": 14.2
+        },
+        {
+          "id": "4",
+          "x": "152.45",
+          "y": "858.07",
+          "speed": "11.00",
+          "lane": "8640122_0",
+          "distance_to_ego_m": 22.0
+        },
+        {
+          "id": "5",
+          "x": "99.46",
+          "y": "819.27",
+          "speed": "9.29",
+          "lane": "8640122_1",
+          "distance_to_ego_m": 43.7
+        },
+        {
+          "id": "6",
+          "x": "112.04",
+          "y": "826.91",
+          "speed": "9.11",
+          "lane": "8640122_1",
+          "distance_to_ego_m": 29.2
+        },
+        {
+          "id": "7",
+          "x": "124.68",
+          "y": "834.22",
+          "speed": "8.96",
+          "lane": "8640122_1",
+          "distance_to_ego_m": 15.2
+        },
+        {
+          "id": "8",
+          "x": "137.25",
+          "y": "841.47",
+          "speed": "8.81",
+          "lane": "8640122_1",
+          "distance_to_ego_m": 6.1
+        },
+        {
+          "id": "9",
+          "x": "149.71",
+          "y": "848.78",
+          "speed": "8.70",
+          "lane": "8640122_1",
+          "distance_to_ego_m": 16.2
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "scene_id": "curve_02",
+    "morphology": "curve",
+    "ego_edge": "544506505#1",
+    "junction_id": "cluster_2003929472_2003929475_2965310055_61443829",
+    "road_length_m": 78.2,
+    "road_lanes": 2,
+    "planned_vehicles": 35,
+    "vehicles": [
+      {
+        "id": "0",
+        "role": "ego",
+        "start_edge": "544506505#1",
+        "lane": 0,
+        "position_m": 30.2,
+        "route": "544506505#1 541022697"
+      },
+      {
+        "id": "1",
+        "role": "traffic",
+        "start_edge": "544506505#1",
+        "lane": 0,
+        "position_m": 47.5,
+        "route": "544506505#1 541022697"
+      },
+      {
+        "id": "2",
+        "role": "traffic",
+        "start_edge": "544506505#1",
+        "lane": 0,
+        "position_m": 7.0,
+        "route": "544506505#1 541022697"
+      },
+      {
+        "id": "3",
+        "role": "traffic",
+        "start_edge": "544506505#1",
+        "lane": 1,
+        "position_m": 50.5,
+        "route": "544506505#1 541022697"
+      },
+      {
+        "id": "4",
+        "role": "traffic",
+        "start_edge": "544506505#1",
+        "lane": 1,
+        "position_m": 37.0,
+        "route": "544506505#1 541022697"
+      },
+      {
+        "id": "5",
+        "role": "traffic",
+        "start_edge": "544506505#1",
+        "lane": 1,
+        "position_m": 23.5,
+        "route": "544506505#1 541022697"
+      },
+      {
+        "id": "6",
+        "role": "traffic",
+        "start_edge": "544506505#1",
+        "lane": 1,
+        "position_m": 10.0,
+        "route": "544506505#1 541022697"
+      },
+      {
+        "id": "7",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 0,
+        "position_m": 47.5,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "8",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 0,
+        "position_m": 34.0,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "9",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 0,
+        "position_m": 20.5,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "10",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 0,
+        "position_m": 7.0,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "11",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 1,
+        "position_m": 37.0,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "12",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 1,
+        "position_m": 23.5,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "13",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 1,
+        "position_m": 10.0,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "14",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 2,
+        "position_m": 40.0,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "15",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 2,
+        "position_m": 26.5,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "16",
+        "role": "traffic",
+        "start_edge": "426498206",
+        "lane": 2,
+        "position_m": 13.0,
+        "route": "426498206 541022699"
+      },
+      {
+        "id": "17",
+        "role": "traffic",
+        "start_edge": "290281426#0",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "290281426#0 290281426#1"
+      },
+      {
+        "id": "18",
+        "role": "traffic",
+        "start_edge": "290281426#0",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "290281426#0 290281426#1"
+      },
+      {
+        "id": "19",
+        "role": "traffic",
+        "start_edge": "290281426#0",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "290281426#0 290281426#1"
+      },
+      {
+        "id": "20",
+        "role": "traffic",
+        "start_edge": "290281426#0",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "290281426#0 290281426#1"
+      },
+      {
+        "id": "21",
+        "role": "traffic",
+        "start_edge": "290281426#0",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "290281426#0 290281426#1"
+      },
+      {
+        "id": "22",
+        "role": "traffic",
+        "start_edge": "290281426#0",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "290281426#0 290281426#1"
+      },
+      {
+        "id": "23",
+        "role": "traffic",
+        "start_edge": "290281426#0",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "290281426#0 290281426#1"
+      },
+      {
+        "id": "24",
+        "role": "traffic",
+        "start_edge": "290281426#0",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "290281426#0 290281426#1"
+      },
+      {
+        "id": "25",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "541022699 426498643#0"
+      },
+      {
+        "id": "26",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "541022699 426498643#0"
+      },
+      {
+        "id": "27",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "541022699 426498643#0"
+      },
+      {
+        "id": "28",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "541022699 426498643#0"
+      },
+      {
+        "id": "29",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "541022699 426498643#0"
+      },
+      {
+        "id": "30",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "541022699 426498643#0"
+      },
+      {
+        "id": "31",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "541022699 426498643#0"
+      },
+      {
+        "id": "32",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "541022699 426498643#0"
+      },
+      {
+        "id": "33",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "541022699 426498643#0"
+      },
+      {
+        "id": "34",
+        "role": "traffic",
+        "start_edge": "541022699",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "541022699 426498643#0"
+      }
+    ],
+    "purpose": "SUMO traffic preview only; no attack",
+    "sumo_returncode": 0,
+    "inserted": 34,
+    "collisions": 0,
+    "snapshot_t2": {
+      "ego_present": true,
+      "active_vehicles": 34,
+      "nearby_60m": 15,
+      "nearby_80m": 20,
+      "vehicles": [
+        {
+          "id": "0",
+          "x": "836.28",
+          "y": "214.78",
+          "speed": "10.77",
+          "lane": "544506505#1_0",
+          "distance_to_ego_m": 0.0
+        },
+        {
+          "id": "1",
+          "x": "853.31",
+          "y": "214.32",
+          "speed": "10.11",
+          "lane": "544506505#1_0",
+          "distance_to_ego_m": 17.0
+        },
+        {
+          "id": "10",
+          "x": "938.72",
+          "y": "196.09",
+          "speed": "1.00",
+          "lane": "426498206_0",
+          "distance_to_ego_m": 104.1
+        },
+        {
+          "id": "11",
+          "x": "904.12",
+          "y": "212.70",
+          "speed": "7.55",
+          "lane": "426498206_1",
+          "distance_to_ego_m": 67.9
+        },
+        {
+          "id": "12",
+          "x": "920.98",
+          "y": "202.80",
+          "speed": "3.69",
+          "lane": "426498206_1",
+          "distance_to_ego_m": 85.5
+        },
+        {
+          "id": "13",
+          "x": "934.11",
+          "y": "195.09",
+          "speed": "2.22",
+          "lane": "426498206_1",
+          "distance_to_ego_m": 99.8
+        },
+        {
+          "id": "15",
+          "x": "915.06",
+          "y": "206.28",
+          "speed": "6.34",
+          "lane": "426498206_1",
+          "distance_to_ego_m": 79.2
+        },
+        {
+          "id": "16",
+          "x": "927.11",
+          "y": "195.49",
+          "speed": "4.89",
+          "lane": "426498206_2",
+          "distance_to_ego_m": 92.9
+        },
+        {
+          "id": "17",
+          "x": "798.91",
+          "y": "220.94",
+          "speed": "11.00",
+          "lane": ":2003929487_0_0",
+          "distance_to_ego_m": 37.9
+        },
+        {
+          "id": "18",
+          "x": "813.95",
+          "y": "224.48",
+          "speed": "10.47",
+          "lane": "290281426#0_0",
+          "distance_to_ego_m": 24.3
+        },
+        {
+          "id": "19",
+          "x": "828.84",
+          "y": "227.53",
+          "speed": "10.01",
+          "lane": "290281426#0_0",
+          "distance_to_ego_m": 14.8
+        },
+        {
+          "id": "2",
+          "x": "813.70",
+          "y": "210.80",
+          "speed": "11.00",
+          "lane": "544506505#1_0",
+          "distance_to_ego_m": 22.9
+        },
+        {
+          "id": "20",
+          "x": "843.77",
+          "y": "228.85",
+          "speed": "9.61",
+          "lane": "290281426#0_0",
+          "distance_to_ego_m": 15.9
+        },
+        {
+          "id": "21",
+          "x": "796.69",
+          "y": "217.21",
+          "speed": "11.00",
+          "lane": ":2003929487_0_1",
+          "distance_to_ego_m": 39.7
+        },
+        {
+          "id": "22",
+          "x": "811.50",
+          "y": "220.60",
+          "speed": "10.47",
+          "lane": "290281426#0_1",
+          "distance_to_ego_m": 25.5
+        },
+        {
+          "id": "23",
+          "x": "826.04",
+          "y": "223.82",
+          "speed": "10.01",
+          "lane": "290281426#0_1",
+          "distance_to_ego_m": 13.7
+        },
+        {
+          "id": "24",
+          "x": "840.64",
+          "y": "225.48",
+          "speed": "9.61",
+          "lane": "290281426#0_1",
+          "distance_to_ego_m": 11.6
+        },
+        {
+          "id": "25",
+          "x": "931.37",
+          "y": "299.17",
+          "speed": "11.00",
+          "lane": ":4257913988_0_0",
+          "distance_to_ego_m": 127.1
+        },
+        {
+          "id": "26",
+          "x": "922.91",
+          "y": "286.60",
+          "speed": "10.47",
+          "lane": "541022699_0",
+          "distance_to_ego_m": 112.5
+        },
+        {
+          "id": "27",
+          "x": "915.40",
+          "y": "273.62",
+          "speed": "10.01",
+          "lane": "541022699_0",
+          "distance_to_ego_m": 98.6
+        },
+        {
+          "id": "28",
+          "x": "907.98",
+          "y": "260.82",
+          "speed": "9.61",
+          "lane": "541022699_0",
+          "distance_to_ego_m": 85.2
+        },
+        {
+          "id": "29",
+          "x": "900.64",
+          "y": "248.14",
+          "speed": "9.28",
+          "lane": "541022699_0",
+          "distance_to_ego_m": 72.5
+        },
+        {
+          "id": "3",
+          "x": "856.32",
+          "y": "217.22",
+          "speed": "8.89",
+          "lane": "544506505#1_1",
+          "distance_to_ego_m": 20.2
+        },
+        {
+          "id": "30",
+          "x": "930.54",
+          "y": "303.04",
+          "speed": "11.00",
+          "lane": ":4257913988_0_1",
+          "distance_to_ego_m": 129.1
+        },
+        {
+          "id": "31",
+          "x": "921.61",
+          "y": "290.74",
+          "speed": "10.47",
+          "lane": "541022699_1",
+          "distance_to_ego_m": 114.2
+        },
+        {
+          "id": "32",
+          "x": "914.03",
+          "y": "277.66",
+          "speed": "10.01",
+          "lane": "541022699_1",
+          "distance_to_ego_m": 100.0
+        },
+        {
+          "id": "33",
+          "x": "906.56",
+          "y": "264.76",
+          "speed": "9.61",
+          "lane": "541022699_1",
+          "distance_to_ego_m": 86.2
+        },
+        {
+          "id": "34",
+          "x": "899.16",
+          "y": "251.99",
+          "speed": "9.28",
+          "lane": "541022699_1",
+          "distance_to_ego_m": 73.1
+        },
+        {
+          "id": "4",
+          "x": "841.25",
+          "y": "218.17",
+          "speed": "9.23",
+          "lane": "544506505#1_1",
+          "distance_to_ego_m": 6.0
+        },
+        {
+          "id": "5",
+          "x": "826.31",
+          "y": "217.00",
+          "speed": "9.33",
+          "lane": "544506505#1_1",
+          "distance_to_ego_m": 10.2
+        },
+        {
+          "id": "6",
+          "x": "811.84",
+          "y": "213.59",
+          "speed": "9.29",
+          "lane": "544506505#1_1",
+          "distance_to_ego_m": 24.5
+        },
+        {
+          "id": "7",
+          "x": "894.41",
+          "y": "221.33",
+          "speed": "6.99",
+          "lane": "426498206_0",
+          "distance_to_ego_m": 58.5
+        },
+        {
+          "id": "8",
+          "x": "912.28",
+          "y": "211.63",
+          "speed": "5.14",
+          "lane": "426498206_0",
+          "distance_to_ego_m": 76.1
+        },
+        {
+          "id": "9",
+          "x": "926.91",
+          "y": "203.03",
+          "speed": "1.13",
+          "lane": "426498206_0",
+          "distance_to_ego_m": 91.4
+        }
+      ]
+    },
+    "pass": false
+  },
+  {
+    "scene_id": "intersection_01",
+    "morphology": "intersection",
+    "ego_edge": "292967029#1",
+    "junction_id": "cluster_2936200697_2936200700_2965205157_61444012",
+    "road_length_m": 163.7,
+    "road_lanes": 2,
+    "planned_vehicles": 52,
+    "vehicles": [
+      {
+        "id": "0",
+        "role": "ego",
+        "start_edge": "292967029#1",
+        "lane": 0,
+        "position_m": 90.0,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "1",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 0,
+        "position_m": 141.2,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "2",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 0,
+        "position_m": 127.7,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "3",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 0,
+        "position_m": 114.2,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "4",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 0,
+        "position_m": 73.7,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "5",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 1,
+        "position_m": 144.2,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "6",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 1,
+        "position_m": 130.7,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "7",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 1,
+        "position_m": 117.2,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "8",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 1,
+        "position_m": 103.7,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "9",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 1,
+        "position_m": 90.2,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "10",
+        "role": "traffic",
+        "start_edge": "292967029#1",
+        "lane": 1,
+        "position_m": 76.7,
+        "route": "292967029#1 485262838"
+      },
+      {
+        "id": "11",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 0,
+        "position_m": 61.0,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "12",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 0,
+        "position_m": 47.5,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "13",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 0,
+        "position_m": 34.0,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "14",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 0,
+        "position_m": 20.5,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "15",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 0,
+        "position_m": 7.0,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "16",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 1,
+        "position_m": 64.0,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "17",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 1,
+        "position_m": 50.5,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "18",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 1,
+        "position_m": 37.0,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "19",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 1,
+        "position_m": 23.5,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "20",
+        "role": "traffic",
+        "start_edge": "426659557",
+        "lane": 1,
+        "position_m": 10.0,
+        "route": "426659557 533607551"
+      },
+      {
+        "id": "21",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 0,
+        "position_m": 75.5,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "22",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "23",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "24",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "25",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "26",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "27",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "28",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "29",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "30",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "31",
+        "role": "traffic",
+        "start_edge": "292809927",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "292809927 8648213#0"
+      },
+      {
+        "id": "32",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 0,
+        "position_m": 75.5,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "33",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "34",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "35",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "36",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "37",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "38",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "39",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "40",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "41",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "42",
+        "role": "traffic",
+        "start_edge": "485262838",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "485262838 -947879228"
+      },
+      {
+        "id": "43",
+        "role": "traffic",
+        "start_edge": "533607551",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "533607551 426498204"
+      },
+      {
+        "id": "44",
+        "role": "traffic",
+        "start_edge": "533607551",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "533607551 426498204"
+      },
+      {
+        "id": "45",
+        "role": "traffic",
+        "start_edge": "533607551",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "533607551 426498204"
+      },
+      {
+        "id": "46",
+        "role": "traffic",
+        "start_edge": "533607551",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "533607551 426498204"
+      },
+      {
+        "id": "47",
+        "role": "traffic",
+        "start_edge": "533607551",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "533607551 426498204"
+      },
+      {
+        "id": "48",
+        "role": "traffic",
+        "start_edge": "533607551",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "533607551 426498204"
+      },
+      {
+        "id": "49",
+        "role": "traffic",
+        "start_edge": "533607551",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "533607551 426498204"
+      },
+      {
+        "id": "50",
+        "role": "traffic",
+        "start_edge": "533607551",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "533607551 426498204"
+      },
+      {
+        "id": "51",
+        "role": "traffic",
+        "start_edge": "533607551",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "533607551 426498204"
+      }
+    ],
+    "purpose": "SUMO traffic preview only; no attack",
+    "sumo_returncode": 0,
+    "inserted": 52,
+    "collisions": 0,
+    "snapshot_t2": {
+      "ego_present": true,
+      "active_vehicles": 52,
+      "nearby_60m": 21,
+      "nearby_80m": 21,
+      "vehicles": [
+        {
+          "id": "0",
+          "x": "1007.28",
+          "y": "310.36",
+          "speed": "10.39",
+          "lane": "292967029#1_0",
+          "distance_to_ego_m": 0.0
+        },
+        {
+          "id": "1",
+          "x": "965.10",
+          "y": "335.71",
+          "speed": "6.67",
+          "lane": "292967029#1_0",
+          "distance_to_ego_m": 49.2
+        },
+        {
+          "id": "10",
+          "x": "1022.35",
+          "y": "295.76",
+          "speed": "8.33",
+          "lane": "292967029#1_1",
+          "distance_to_ego_m": 21.0
+        },
+        {
+          "id": "11",
+          "x": "924.22",
+          "y": "344.58",
+          "speed": "11.00",
+          "lane": "426659557_0",
+          "distance_to_ego_m": 89.8
+        },
+        {
+          "id": "12",
+          "x": "912.22",
+          "y": "354.01",
+          "speed": "10.47",
+          "lane": "426659557_0",
+          "distance_to_ego_m": 104.6
+        },
+        {
+          "id": "13",
+          "x": "899.96",
+          "y": "362.73",
+          "speed": "10.01",
+          "lane": "426659557_0",
+          "distance_to_ego_m": 119.4
+        },
+        {
+          "id": "14",
+          "x": "887.78",
+          "y": "371.20",
+          "speed": "9.61",
+          "lane": "426659557_0",
+          "distance_to_ego_m": 134.1
+        },
+        {
+          "id": "15",
+          "x": "875.72",
+          "y": "379.57",
+          "speed": "9.28",
+          "lane": "426659557_0",
+          "distance_to_ego_m": 148.7
+        },
+        {
+          "id": "16",
+          "x": "928.99",
+          "y": "347.46",
+          "speed": "9.82",
+          "lane": "426659557_1",
+          "distance_to_ego_m": 86.6
+        },
+        {
+          "id": "17",
+          "x": "917.14",
+          "y": "356.60",
+          "speed": "9.54",
+          "lane": "426659557_1",
+          "distance_to_ego_m": 101.3
+        },
+        {
+          "id": "18",
+          "x": "905.09",
+          "y": "365.26",
+          "speed": "9.29",
+          "lane": "426659557_1",
+          "distance_to_ego_m": 116.0
+        },
+        {
+          "id": "19",
+          "x": "893.01",
+          "y": "373.65",
+          "speed": "9.07",
+          "lane": "426659557_1",
+          "distance_to_ego_m": 130.6
+        },
+        {
+          "id": "2",
+          "x": "977.36",
+          "y": "328.12",
+          "speed": "7.65",
+          "lane": "292967029#1_0",
+          "distance_to_ego_m": 34.8
+        },
+        {
+          "id": "20",
+          "x": "881.01",
+          "y": "381.98",
+          "speed": "8.89",
+          "lane": "426659557_1",
+          "distance_to_ego_m": 145.2
+        },
+        {
+          "id": "21",
+          "x": "1035.79",
+          "y": "276.45",
+          "speed": "11.00",
+          "lane": "292809927_0",
+          "distance_to_ego_m": 44.3
+        },
+        {
+          "id": "22",
+          "x": "1016.21",
+          "y": "287.60",
+          "speed": "5.05",
+          "lane": "292809927_0",
+          "distance_to_ego_m": 24.4
+        },
+        {
+          "id": "23",
+          "x": "1005.27",
+          "y": "293.83",
+          "speed": "5.80",
+          "lane": "292809927_0",
+          "distance_to_ego_m": 16.7
+        },
+        {
+          "id": "24",
+          "x": "992.89",
+          "y": "300.89",
+          "speed": "4.21",
+          "lane": "292809927_0",
+          "distance_to_ego_m": 17.2
+        },
+        {
+          "id": "25",
+          "x": "981.59",
+          "y": "307.32",
+          "speed": "5.61",
+          "lane": "292809927_0",
+          "distance_to_ego_m": 25.9
+        },
+        {
+          "id": "26",
+          "x": "969.74",
+          "y": "313.94",
+          "speed": "6.64",
+          "lane": "292809927_0",
+          "distance_to_ego_m": 37.7
+        },
+        {
+          "id": "27",
+          "x": "1024.30",
+          "y": "283.00",
+          "speed": "9.81",
+          "lane": "292809927_0",
+          "distance_to_ego_m": 32.2
+        },
+        {
+          "id": "28",
+          "x": "1014.29",
+          "y": "294.46",
+          "speed": "9.95",
+          "lane": "292809927_1",
+          "distance_to_ego_m": 17.4
+        },
+        {
+          "id": "29",
+          "x": "1000.80",
+          "y": "302.14",
+          "speed": "6.99",
+          "lane": "292809927_1",
+          "distance_to_ego_m": 10.5
+        },
+        {
+          "id": "3",
+          "x": "989.82",
+          "y": "320.67",
+          "speed": "8.17",
+          "lane": "292967029#1_0",
+          "distance_to_ego_m": 20.3
+        },
+        {
+          "id": "30",
+          "x": "988.61",
+          "y": "309.08",
+          "speed": "7.53",
+          "lane": "292809927_1",
+          "distance_to_ego_m": 18.7
+        },
+        {
+          "id": "31",
+          "x": "976.27",
+          "y": "316.03",
+          "speed": "7.85",
+          "lane": "292809927_1",
+          "distance_to_ego_m": 31.5
+        },
+        {
+          "id": "32",
+          "x": "867.03",
+          "y": "407.39",
+          "speed": "8.81",
+          "lane": ":cluster_2936205205_61428136_3_0",
+          "distance_to_ego_m": 170.5
+        },
+        {
+          "id": "33",
+          "x": "883.83",
+          "y": "395.39",
+          "speed": "5.74",
+          "lane": "485262838_0",
+          "distance_to_ego_m": 149.9
+        },
+        {
+          "id": "34",
+          "x": "896.87",
+          "y": "384.67",
+          "speed": "2.50",
+          "lane": "485262838_0",
+          "distance_to_ego_m": 133.1
+        },
+        {
+          "id": "35",
+          "x": "907.64",
+          "y": "376.18",
+          "speed": "2.41",
+          "lane": "485262838_0",
+          "distance_to_ego_m": 119.4
+        },
+        {
+          "id": "36",
+          "x": "918.99",
+          "y": "368.40",
+          "speed": "2.38",
+          "lane": "485262838_0",
+          "distance_to_ego_m": 105.7
+        },
+        {
+          "id": "37",
+          "x": "929.70",
+          "y": "360.32",
+          "speed": "3.85",
+          "lane": "485262838_0",
+          "distance_to_ego_m": 92.3
+        },
+        {
+          "id": "38",
+          "x": "874.53",
+          "y": "396.11",
+          "speed": "8.27",
+          "lane": "485262838_1",
+          "distance_to_ego_m": 158.0
+        },
+        {
+          "id": "39",
+          "x": "891.65",
+          "y": "389.19",
+          "speed": "4.89",
+          "lane": "485262838_0",
+          "distance_to_ego_m": 139.9
+        },
+        {
+          "id": "4",
+          "x": "1023.15",
+          "y": "301.07",
+          "speed": "11.00",
+          "lane": "292967029#1_0",
+          "distance_to_ego_m": 18.4
+        },
+        {
+          "id": "40",
+          "x": "899.33",
+          "y": "376.22",
+          "speed": "4.89",
+          "lane": "485262838_1",
+          "distance_to_ego_m": 126.5
+        },
+        {
+          "id": "41",
+          "x": "910.79",
+          "y": "368.24",
+          "speed": "5.09",
+          "lane": "485262838_1",
+          "distance_to_ego_m": 112.5
+        },
+        {
+          "id": "42",
+          "x": "921.81",
+          "y": "360.01",
+          "speed": "6.45",
+          "lane": "485262838_1",
+          "distance_to_ego_m": 98.8
+        },
+        {
+          "id": "43",
+          "x": "890.47",
+          "y": "258.02",
+          "speed": "11.00",
+          "lane": ":2965310046_0_0",
+          "distance_to_ego_m": 128.0
+        },
+        {
+          "id": "44",
+          "x": "899.10",
+          "y": "270.51",
+          "speed": "10.47",
+          "lane": "533607551_0",
+          "distance_to_ego_m": 115.3
+        },
+        {
+          "id": "45",
+          "x": "906.60",
+          "y": "283.57",
+          "speed": "10.01",
+          "lane": "533607551_0",
+          "distance_to_ego_m": 104.2
+        },
+        {
+          "id": "46",
+          "x": "914.01",
+          "y": "296.46",
+          "speed": "9.61",
+          "lane": "533607551_0",
+          "distance_to_ego_m": 94.3
+        },
+        {
+          "id": "47",
+          "x": "921.38",
+          "y": "309.19",
+          "speed": "9.28",
+          "lane": "533607551_0",
+          "distance_to_ego_m": 85.9
+        },
+        {
+          "id": "48",
+          "x": "899.48",
+          "y": "264.74",
+          "speed": "11.00",
+          "lane": "533607551_1",
+          "distance_to_ego_m": 117.1
+        },
+        {
+          "id": "49",
+          "x": "907.09",
+          "y": "278.00",
+          "speed": "10.47",
+          "lane": "533607551_1",
+          "distance_to_ego_m": 105.3
+        },
+        {
+          "id": "5",
+          "x": "961.09",
+          "y": "332.27",
+          "speed": "6.72",
+          "lane": "292967029#1_1",
+          "distance_to_ego_m": 51.1
+        },
+        {
+          "id": "50",
+          "x": "914.58",
+          "y": "291.04",
+          "speed": "10.01",
+          "lane": "533607551_1",
+          "distance_to_ego_m": 94.7
+        },
+        {
+          "id": "51",
+          "x": "921.98",
+          "y": "303.92",
+          "speed": "9.61",
+          "lane": "533607551_1",
+          "distance_to_ego_m": 85.5
+        },
+        {
+          "id": "6",
+          "x": "973.05",
+          "y": "324.86",
+          "speed": "7.17",
+          "lane": "292967029#1_1",
+          "distance_to_ego_m": 37.2
+        },
+        {
+          "id": "7",
+          "x": "985.27",
+          "y": "317.57",
+          "speed": "7.55",
+          "lane": "292967029#1_1",
+          "distance_to_ego_m": 23.2
+        },
+        {
+          "id": "8",
+          "x": "997.56",
+          "y": "310.26",
+          "speed": "7.97",
+          "lane": "292967029#1_1",
+          "distance_to_ego_m": 9.7
+        },
+        {
+          "id": "9",
+          "x": "1009.95",
+          "y": "303.01",
+          "speed": "8.21",
+          "lane": "292967029#1_1",
+          "distance_to_ego_m": 7.8
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "scene_id": "intersection_02",
+    "morphology": "intersection",
+    "ego_edge": "426491386#0",
+    "junction_id": "61340896",
+    "road_length_m": 163.2,
+    "road_lanes": 2,
+    "planned_vehicles": 51,
+    "vehicles": [
+      {
+        "id": "0",
+        "role": "ego",
+        "start_edge": "426491386#0",
+        "lane": 0,
+        "position_m": 89.7,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "1",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 0,
+        "position_m": 140.7,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "2",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 0,
+        "position_m": 127.2,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "3",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 0,
+        "position_m": 113.7,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "4",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 0,
+        "position_m": 73.2,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "5",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 1,
+        "position_m": 143.7,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "6",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 1,
+        "position_m": 130.2,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "7",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 1,
+        "position_m": 116.7,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "8",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 1,
+        "position_m": 103.2,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "9",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 1,
+        "position_m": 89.7,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "10",
+        "role": "traffic",
+        "start_edge": "426491386#0",
+        "lane": 1,
+        "position_m": 76.2,
+        "route": "426491386#0 -8647521#1"
+      },
+      {
+        "id": "11",
+        "role": "traffic",
+        "start_edge": "-85890998#1",
+        "lane": 0,
+        "position_m": 47.5,
+        "route": "-85890998#1 -1121694527#1"
+      },
+      {
+        "id": "12",
+        "role": "traffic",
+        "start_edge": "-85890998#1",
+        "lane": 0,
+        "position_m": 34.0,
+        "route": "-85890998#1 -1121694527#1"
+      },
+      {
+        "id": "13",
+        "role": "traffic",
+        "start_edge": "-85890998#1",
+        "lane": 0,
+        "position_m": 20.5,
+        "route": "-85890998#1 -1121694527#1"
+      },
+      {
+        "id": "14",
+        "role": "traffic",
+        "start_edge": "-85890998#1",
+        "lane": 0,
+        "position_m": 7.0,
+        "route": "-85890998#1 -1121694527#1"
+      },
+      {
+        "id": "15",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 0,
+        "position_m": 61.0,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "16",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 0,
+        "position_m": 47.5,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "17",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 0,
+        "position_m": 34.0,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "18",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 0,
+        "position_m": 20.5,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "19",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 0,
+        "position_m": 7.0,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "20",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 1,
+        "position_m": 64.0,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "21",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 1,
+        "position_m": 50.5,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "22",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 1,
+        "position_m": 37.0,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "23",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 1,
+        "position_m": 23.5,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "24",
+        "role": "traffic",
+        "start_edge": "1121696256#0",
+        "lane": 1,
+        "position_m": 10.0,
+        "route": "1121696256#0 8645381"
+      },
+      {
+        "id": "25",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 0,
+        "position_m": 75.5,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "26",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "27",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "28",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "29",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "30",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "31",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "32",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "33",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "34",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "35",
+        "role": "traffic",
+        "start_edge": "-1121694527#1",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "-1121694527#1 426488940#0"
+      },
+      {
+        "id": "36",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 0,
+        "position_m": 75.5,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "37",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "38",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "39",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "40",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "41",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "42",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "43",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "44",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "45",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "46",
+        "role": "traffic",
+        "start_edge": "-8647521#1",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "-8647521#1 592009791"
+      },
+      {
+        "id": "47",
+        "role": "traffic",
+        "start_edge": "8645381",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "8645381 822604874"
+      },
+      {
+        "id": "48",
+        "role": "traffic",
+        "start_edge": "8645381",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "8645381 822604874"
+      },
+      {
+        "id": "49",
+        "role": "traffic",
+        "start_edge": "8645381",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "8645381 822604874"
+      },
+      {
+        "id": "50",
+        "role": "traffic",
+        "start_edge": "8645381",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "8645381 822604874"
+      }
+    ],
+    "purpose": "SUMO traffic preview only; no attack",
+    "sumo_returncode": 0,
+    "inserted": 51,
+    "collisions": 0,
+    "snapshot_t2": {
+      "ego_present": true,
+      "active_vehicles": 51,
+      "nearby_60m": 21,
+      "nearby_80m": 21,
+      "vehicles": [
+        {
+          "id": "0",
+          "x": "123.95",
+          "y": "621.23",
+          "speed": "5.20",
+          "lane": "426491386#0_0",
+          "distance_to_ego_m": 0.0
+        },
+        {
+          "id": "1",
+          "x": "153.16",
+          "y": "581.54",
+          "speed": "6.46",
+          "lane": "426491386#0_0",
+          "distance_to_ego_m": 49.3
+        },
+        {
+          "id": "10",
+          "x": "118.46",
+          "y": "638.29",
+          "speed": "6.35",
+          "lane": "426491386#0_1",
+          "distance_to_ego_m": 17.9
+        },
+        {
+          "id": "11",
+          "x": "192.04",
+          "y": "561.71",
+          "speed": "11.00",
+          "lane": "-85890998#1_0",
+          "distance_to_ego_m": 90.4
+        },
+        {
+          "id": "12",
+          "x": "205.30",
+          "y": "554.09",
+          "speed": "10.47",
+          "lane": "-85890998#1_0",
+          "distance_to_ego_m": 105.5
+        },
+        {
+          "id": "13",
+          "x": "218.35",
+          "y": "546.58",
+          "speed": "10.01",
+          "lane": "-85890998#1_0",
+          "distance_to_ego_m": 120.3
+        },
+        {
+          "id": "14",
+          "x": "231.23",
+          "y": "539.18",
+          "speed": "9.61",
+          "lane": "-85890998#1_0",
+          "distance_to_ego_m": 135.1
+        },
+        {
+          "id": "15",
+          "x": "161.88",
+          "y": "537.56",
+          "speed": "6.22",
+          "lane": "1121696256#0_0",
+          "distance_to_ego_m": 91.9
+        },
+        {
+          "id": "16",
+          "x": "153.41",
+          "y": "521.74",
+          "speed": "3.17",
+          "lane": "1121696256#0_0",
+          "distance_to_ego_m": 103.8
+        },
+        {
+          "id": "17",
+          "x": "146.74",
+          "y": "509.20",
+          "speed": "2.22",
+          "lane": "1121696256#0_0",
+          "distance_to_ego_m": 114.3
+        },
+        {
+          "id": "18",
+          "x": "140.49",
+          "y": "497.12",
+          "speed": "2.30",
+          "lane": "1121696256#0_0",
+          "distance_to_ego_m": 125.2
+        },
+        {
+          "id": "19",
+          "x": "134.47",
+          "y": "485.46",
+          "speed": "4.05",
+          "lane": "1121696256#0_0",
+          "distance_to_ego_m": 136.2
+        },
+        {
+          "id": "2",
+          "x": "142.89",
+          "y": "595.59",
+          "speed": "2.55",
+          "lane": "426491386#0_0",
+          "distance_to_ego_m": 31.9
+        },
+        {
+          "id": "20",
+          "x": "165.68",
+          "y": "544.66",
+          "speed": "8.41",
+          "lane": "1121696256#0_0",
+          "distance_to_ego_m": 87.2
+        },
+        {
+          "id": "21",
+          "x": "156.56",
+          "y": "527.63",
+          "speed": "6.01",
+          "lane": "1121696256#0_0",
+          "distance_to_ego_m": 99.1
+        },
+        {
+          "id": "22",
+          "x": "145.50",
+          "y": "517.30",
+          "speed": "4.89",
+          "lane": "1121696256#0_1",
+          "distance_to_ego_m": 106.1
+        },
+        {
+          "id": "23",
+          "x": "138.95",
+          "y": "504.76",
+          "speed": "5.09",
+          "lane": "1121696256#0_1",
+          "distance_to_ego_m": 117.4
+        },
+        {
+          "id": "24",
+          "x": "132.60",
+          "y": "492.48",
+          "speed": "6.40",
+          "lane": "1121696256#0_1",
+          "distance_to_ego_m": 129.0
+        },
+        {
+          "id": "25",
+          "x": "116.48",
+          "y": "660.21",
+          "speed": "9.76",
+          "lane": "-1121694527#1_0",
+          "distance_to_ego_m": 39.7
+        },
+        {
+          "id": "26",
+          "x": "125.37",
+          "y": "648.18",
+          "speed": "9.49",
+          "lane": "-1121694527#1_0",
+          "distance_to_ego_m": 27.0
+        },
+        {
+          "id": "27",
+          "x": "134.16",
+          "y": "636.28",
+          "speed": "9.25",
+          "lane": "-1121694527#1_0",
+          "distance_to_ego_m": 18.2
+        },
+        {
+          "id": "28",
+          "x": "142.88",
+          "y": "624.48",
+          "speed": "9.04",
+          "lane": "-1121694527#1_0",
+          "distance_to_ego_m": 19.2
+        },
+        {
+          "id": "29",
+          "x": "151.54",
+          "y": "612.76",
+          "speed": "8.86",
+          "lane": "-1121694527#1_0",
+          "distance_to_ego_m": 28.9
+        },
+        {
+          "id": "3",
+          "x": "134.73",
+          "y": "606.62",
+          "speed": "2.22",
+          "lane": "426491386#0_0",
+          "distance_to_ego_m": 18.2
+        },
+        {
+          "id": "30",
+          "x": "160.15",
+          "y": "601.10",
+          "speed": "8.72",
+          "lane": "-1121694527#1_0",
+          "distance_to_ego_m": 41.4
+        },
+        {
+          "id": "31",
+          "x": "117.59",
+          "y": "649.09",
+          "speed": "11.00",
+          "lane": "-1121694527#1_1",
+          "distance_to_ego_m": 28.6
+        },
+        {
+          "id": "32",
+          "x": "126.68",
+          "y": "636.78",
+          "speed": "10.47",
+          "lane": "-1121694527#1_1",
+          "distance_to_ego_m": 15.8
+        },
+        {
+          "id": "33",
+          "x": "135.63",
+          "y": "624.66",
+          "speed": "10.01",
+          "lane": "-1121694527#1_1",
+          "distance_to_ego_m": 12.2
+        },
+        {
+          "id": "34",
+          "x": "144.47",
+          "y": "612.71",
+          "speed": "9.61",
+          "lane": "-1121694527#1_1",
+          "distance_to_ego_m": 22.2
+        },
+        {
+          "id": "35",
+          "x": "153.21",
+          "y": "600.88",
+          "speed": "9.28",
+          "lane": "-1121694527#1_1",
+          "distance_to_ego_m": 35.6
+        },
+        {
+          "id": "36",
+          "x": "119.42",
+          "y": "473.70",
+          "speed": "10.71",
+          "lane": ":cluster_11646605551_1982350627_1982350628_61340907_0_0",
+          "distance_to_ego_m": 147.6
+        },
+        {
+          "id": "37",
+          "x": "127.15",
+          "y": "492.56",
+          "speed": "6.28",
+          "lane": "-8647521#1_1",
+          "distance_to_ego_m": 128.7
+        },
+        {
+          "id": "38",
+          "x": "129.32",
+          "y": "507.39",
+          "speed": "4.89",
+          "lane": "-8647521#1_0",
+          "distance_to_ego_m": 114.0
+        },
+        {
+          "id": "39",
+          "x": "135.83",
+          "y": "519.93",
+          "speed": "5.09",
+          "lane": "-8647521#1_0",
+          "distance_to_ego_m": 102.0
+        },
+        {
+          "id": "4",
+          "x": "112.03",
+          "y": "637.35",
+          "speed": "3.71",
+          "lane": "426491386#0_0",
+          "distance_to_ego_m": 20.0
+        },
+        {
+          "id": "40",
+          "x": "142.51",
+          "y": "532.41",
+          "speed": "5.28",
+          "lane": "-8647521#1_0",
+          "distance_to_ego_m": 90.7
+        },
+        {
+          "id": "41",
+          "x": "149.21",
+          "y": "544.91",
+          "speed": "5.48",
+          "lane": "-8647521#1_0",
+          "distance_to_ego_m": 80.4
+        },
+        {
+          "id": "42",
+          "x": "123.81",
+          "y": "486.05",
+          "speed": "9.73",
+          "lane": "-8647521#1_1",
+          "distance_to_ego_m": 135.2
+        },
+        {
+          "id": "43",
+          "x": "132.24",
+          "y": "502.41",
+          "speed": "5.66",
+          "lane": "-8647521#1_1",
+          "distance_to_ego_m": 119.1
+        },
+        {
+          "id": "44",
+          "x": "138.66",
+          "y": "514.80",
+          "speed": "4.90",
+          "lane": "-8647521#1_1",
+          "distance_to_ego_m": 107.4
+        },
+        {
+          "id": "45",
+          "x": "145.17",
+          "y": "527.02",
+          "speed": "5.11",
+          "lane": "-8647521#1_1",
+          "distance_to_ego_m": 96.6
+        },
+        {
+          "id": "46",
+          "x": "151.71",
+          "y": "539.24",
+          "speed": "5.11",
+          "lane": "-8647521#1_1",
+          "distance_to_ego_m": 86.6
+        },
+        {
+          "id": "47",
+          "x": "239.52",
+          "y": "521.22",
+          "speed": "10.07",
+          "lane": "8645381_0",
+          "distance_to_ego_m": 152.8
+        },
+        {
+          "id": "48",
+          "x": "226.46",
+          "y": "528.72",
+          "speed": "9.74",
+          "lane": "8645381_0",
+          "distance_to_ego_m": 138.1
+        },
+        {
+          "id": "49",
+          "x": "213.56",
+          "y": "536.14",
+          "speed": "9.44",
+          "lane": "8645381_0",
+          "distance_to_ego_m": 123.6
+        },
+        {
+          "id": "5",
+          "x": "158.05",
+          "y": "574.56",
+          "speed": "8.87",
+          "lane": "426491386#0_0",
+          "distance_to_ego_m": 57.8
+        },
+        {
+          "id": "50",
+          "x": "200.79",
+          "y": "543.48",
+          "speed": "9.19",
+          "lane": "8645381_0",
+          "distance_to_ego_m": 109.3
+        },
+        {
+          "id": "6",
+          "x": "146.91",
+          "y": "590.16",
+          "speed": "5.50",
+          "lane": "426491386#0_0",
+          "distance_to_ego_m": 38.6
+        },
+        {
+          "id": "7",
+          "x": "143.01",
+          "y": "605.06",
+          "speed": "4.89",
+          "lane": "426491386#0_1",
+          "distance_to_ego_m": 25.0
+        },
+        {
+          "id": "8",
+          "x": "134.70",
+          "y": "616.30",
+          "speed": "5.09",
+          "lane": "426491386#0_1",
+          "distance_to_ego_m": 11.8
+        },
+        {
+          "id": "9",
+          "x": "126.38",
+          "y": "627.57",
+          "speed": "5.28",
+          "lane": "426491386#0_1",
+          "distance_to_ego_m": 6.8
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "scene_id": "merge_01",
+    "morphology": "merge",
+    "ego_edge": "236579256",
+    "junction_id": "cluster_2003929498_2003938792",
+    "road_length_m": 137.3,
+    "road_lanes": 2,
+    "planned_vehicles": 45,
+    "vehicles": [
+      {
+        "id": "0",
+        "role": "ego",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 75.5,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "1",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 114.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "2",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 101.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "3",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 87.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "4",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 60.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "5",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 47.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "6",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 117.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "7",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 104.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "8",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 90.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "9",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 77.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "10",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 63.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "11",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 50.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "12",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 74.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "13",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 61.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "14",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 47.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "15",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 34.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "16",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 20.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "17",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 7.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "18",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 77.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "19",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 64.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "20",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 50.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "21",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 37.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "22",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 23.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "23",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 10.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "24",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 75.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "25",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "26",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "27",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "28",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "29",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "30",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "31",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "32",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "33",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "34",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "35",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "36",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "37",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "38",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "39",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "40",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "41",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "42",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "43",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "44",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "627757427#0 1086987623#1"
+      }
+    ],
+    "purpose": "SUMO traffic preview only; no attack",
+    "sumo_returncode": 0,
+    "inserted": 45,
+    "collisions": 0,
+    "snapshot_t2": {
+      "ego_present": true,
+      "active_vehicles": 42,
+      "nearby_60m": 20,
+      "nearby_80m": 26,
+      "vehicles": [
+        {
+          "id": "0",
+          "x": "994.85",
+          "y": "143.48",
+          "speed": "11.00",
+          "lane": "236579256_0",
+          "distance_to_ego_m": 0.0
+        },
+        {
+          "id": "1",
+          "x": "1028.95",
+          "y": "123.93",
+          "speed": "11.00",
+          "lane": "236579256_0",
+          "distance_to_ego_m": 39.3
+        },
+        {
+          "id": "10",
+          "x": "981.20",
+          "y": "155.01",
+          "speed": "9.28",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 17.9
+        },
+        {
+          "id": "11",
+          "x": "968.55",
+          "y": "162.26",
+          "speed": "9.01",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 32.3
+        },
+        {
+          "id": "12",
+          "x": "1050.67",
+          "y": "141.88",
+          "speed": "6.21",
+          "lane": "8648213#0_0",
+          "distance_to_ego_m": 55.8
+        },
+        {
+          "id": "13",
+          "x": "1058.13",
+          "y": "154.05",
+          "speed": "7.34",
+          "lane": "8648213#0_0",
+          "distance_to_ego_m": 64.2
+        },
+        {
+          "id": "14",
+          "x": "1065.66",
+          "y": "166.36",
+          "speed": "7.94",
+          "lane": "8648213#0_0",
+          "distance_to_ego_m": 74.4
+        },
+        {
+          "id": "15",
+          "x": "1073.22",
+          "y": "178.72",
+          "speed": "8.27",
+          "lane": "8648213#0_0",
+          "distance_to_ego_m": 85.9
+        },
+        {
+          "id": "16",
+          "x": "1081.09",
+          "y": "190.88",
+          "speed": "8.44",
+          "lane": "8648213#0_0",
+          "distance_to_ego_m": 98.4
+        },
+        {
+          "id": "17",
+          "x": "1089.06",
+          "y": "202.96",
+          "speed": "8.50",
+          "lane": "8648213#0_0",
+          "distance_to_ego_m": 111.4
+        },
+        {
+          "id": "18",
+          "x": "1054.87",
+          "y": "137.03",
+          "speed": "6.81",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 60.4
+        },
+        {
+          "id": "19",
+          "x": "1062.16",
+          "y": "148.97",
+          "speed": "7.19",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 67.5
+        },
+        {
+          "id": "2",
+          "x": "1015.68",
+          "y": "131.55",
+          "speed": "10.47",
+          "lane": "236579256_0",
+          "distance_to_ego_m": 24.0
+        },
+        {
+          "id": "20",
+          "x": "1069.56",
+          "y": "161.05",
+          "speed": "7.53",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 76.7
+        },
+        {
+          "id": "21",
+          "x": "1077.00",
+          "y": "173.21",
+          "speed": "7.80",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 87.4
+        },
+        {
+          "id": "22",
+          "x": "1084.69",
+          "y": "185.28",
+          "speed": "8.09",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 99.1
+        },
+        {
+          "id": "23",
+          "x": "1092.59",
+          "y": "197.24",
+          "speed": "8.25",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 111.5
+        },
+        {
+          "id": "24",
+          "x": "956.52",
+          "y": "183.95",
+          "speed": "11.00",
+          "lane": ":4257911825_0_0",
+          "distance_to_ego_m": 55.7
+        },
+        {
+          "id": "25",
+          "x": "969.65",
+          "y": "176.10",
+          "speed": "10.47",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 41.2
+        },
+        {
+          "id": "26",
+          "x": "982.64",
+          "y": "168.50",
+          "speed": "10.01",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 27.8
+        },
+        {
+          "id": "27",
+          "x": "995.47",
+          "y": "161.01",
+          "speed": "9.61",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 17.5
+        },
+        {
+          "id": "28",
+          "x": "1008.16",
+          "y": "153.59",
+          "speed": "9.28",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 16.7
+        },
+        {
+          "id": "29",
+          "x": "1020.75",
+          "y": "146.23",
+          "speed": "9.01",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 26.0
+        },
+        {
+          "id": "30",
+          "x": "963.89",
+          "y": "175.76",
+          "speed": "11.00",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 44.7
+        },
+        {
+          "id": "31",
+          "x": "977.10",
+          "y": "168.04",
+          "speed": "10.47",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 30.3
+        },
+        {
+          "id": "32",
+          "x": "990.09",
+          "y": "160.45",
+          "speed": "10.01",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 17.6
+        },
+        {
+          "id": "33",
+          "x": "1002.92",
+          "y": "152.95",
+          "speed": "9.61",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 12.4
+        },
+        {
+          "id": "34",
+          "x": "1015.61",
+          "y": "145.53",
+          "speed": "9.28",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 20.9
+        },
+        {
+          "id": "35",
+          "x": "1111.80",
+          "y": "75.71",
+          "speed": "4.46",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 135.2
+        },
+        {
+          "id": "36",
+          "x": "1097.94",
+          "y": "83.78",
+          "speed": "2.26",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 119.1
+        },
+        {
+          "id": "37",
+          "x": "1086.07",
+          "y": "90.69",
+          "speed": "2.22",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 105.4
+        },
+        {
+          "id": "38",
+          "x": "1074.22",
+          "y": "97.59",
+          "speed": "2.28",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 91.7
+        },
+        {
+          "id": "39",
+          "x": "1062.35",
+          "y": "104.50",
+          "speed": "2.51",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 77.9
+        },
+        {
+          "id": "40",
+          "x": "1118.85",
+          "y": "71.61",
+          "speed": "7.22",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 143.3
+        },
+        {
+          "id": "41",
+          "x": "1105.29",
+          "y": "83.19",
+          "speed": "4.70",
+          "lane": "627757427#0_1",
+          "distance_to_ego_m": 125.8
+        },
+        {
+          "id": "42",
+          "x": "1093.22",
+          "y": "90.22",
+          "speed": "4.89",
+          "lane": "627757427#0_1",
+          "distance_to_ego_m": 111.9
+        },
+        {
+          "id": "43",
+          "x": "1081.13",
+          "y": "97.26",
+          "speed": "5.09",
+          "lane": "627757427#0_1",
+          "distance_to_ego_m": 97.9
+        },
+        {
+          "id": "44",
+          "x": "1069.02",
+          "y": "104.31",
+          "speed": "5.28",
+          "lane": "627757427#0_1",
+          "distance_to_ego_m": 83.9
+        },
+        {
+          "id": "6",
+          "x": "1033.16",
+          "y": "125.18",
+          "speed": "11.00",
+          "lane": ":cluster_2003929498_2003938792_5_1",
+          "distance_to_ego_m": 42.5
+        },
+        {
+          "id": "7",
+          "x": "1019.91",
+          "y": "132.82",
+          "speed": "10.47",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 27.2
+        },
+        {
+          "id": "8",
+          "x": "1006.84",
+          "y": "140.31",
+          "speed": "10.01",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 12.4
+        },
+        {
+          "id": "9",
+          "x": "993.95",
+          "y": "147.70",
+          "speed": "9.61",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 4.3
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "scene_id": "merge_02",
+    "morphology": "merge",
+    "ego_edge": "8648213#0",
+    "junction_id": "cluster_2003929498_2003938792",
+    "road_length_m": 95.9,
+    "road_lanes": 2,
+    "planned_vehicles": 45,
+    "vehicles": [
+      {
+        "id": "0",
+        "role": "ego",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 47.9,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "1",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 74.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "2",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 61.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "3",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 34.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "4",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 20.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "5",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 0,
+        "position_m": 7.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "6",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 77.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "7",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 64.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "8",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 50.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "9",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 37.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "10",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 23.5,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "11",
+        "role": "traffic",
+        "start_edge": "8648213#0",
+        "lane": 1,
+        "position_m": 10.0,
+        "route": "8648213#0 426498646"
+      },
+      {
+        "id": "12",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 114.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "13",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 101.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "14",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 87.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "15",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 74.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "16",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 60.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "17",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 0,
+        "position_m": 47.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "18",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 117.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "19",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 104.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "20",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 90.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "21",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 77.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "22",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 63.8,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "23",
+        "role": "traffic",
+        "start_edge": "236579256",
+        "lane": 1,
+        "position_m": 50.3,
+        "route": "236579256 627757427#0"
+      },
+      {
+        "id": "24",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 75.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "25",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "26",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "27",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "28",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "29",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "30",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "31",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "32",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "33",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "34",
+        "role": "traffic",
+        "start_edge": "426498646",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "426498646 426498206"
+      },
+      {
+        "id": "35",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 62.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "36",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 48.5,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "37",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 35.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "38",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 21.5,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "39",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 0,
+        "position_m": 8.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "40",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 65.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "41",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 51.5,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "42",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 38.0,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "43",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 24.5,
+        "route": "627757427#0 1086987623#1"
+      },
+      {
+        "id": "44",
+        "role": "traffic",
+        "start_edge": "627757427#0",
+        "lane": 1,
+        "position_m": 11.0,
+        "route": "627757427#0 1086987623#1"
+      }
+    ],
+    "purpose": "SUMO traffic preview only; no attack",
+    "sumo_returncode": 0,
+    "inserted": 45,
+    "collisions": 0,
+    "snapshot_t2": {
+      "ego_present": true,
+      "active_vehicles": 41,
+      "nearby_60m": 16,
+      "nearby_80m": 27,
+      "vehicles": [
+        {
+          "id": "0",
+          "x": "1063.25",
+          "y": "162.42",
+          "speed": "10.76",
+          "lane": "8648213#0_0",
+          "distance_to_ego_m": 0.0
+        },
+        {
+          "id": "1",
+          "x": "1050.67",
+          "y": "141.88",
+          "speed": "6.21",
+          "lane": "8648213#0_0",
+          "distance_to_ego_m": 24.1
+        },
+        {
+          "id": "10",
+          "x": "1084.69",
+          "y": "185.28",
+          "speed": "8.09",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 31.3
+        },
+        {
+          "id": "11",
+          "x": "1092.59",
+          "y": "197.24",
+          "speed": "8.25",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 45.5
+        },
+        {
+          "id": "12",
+          "x": "1028.95",
+          "y": "123.93",
+          "speed": "11.00",
+          "lane": "236579256_0",
+          "distance_to_ego_m": 51.6
+        },
+        {
+          "id": "13",
+          "x": "1015.68",
+          "y": "131.55",
+          "speed": "10.47",
+          "lane": "236579256_0",
+          "distance_to_ego_m": 56.7
+        },
+        {
+          "id": "14",
+          "x": "1002.61",
+          "y": "139.04",
+          "speed": "10.01",
+          "lane": "236579256_0",
+          "distance_to_ego_m": 65.0
+        },
+        {
+          "id": "15",
+          "x": "989.72",
+          "y": "146.42",
+          "speed": "9.61",
+          "lane": "236579256_0",
+          "distance_to_ego_m": 75.3
+        },
+        {
+          "id": "16",
+          "x": "976.97",
+          "y": "153.74",
+          "speed": "9.28",
+          "lane": "236579256_0",
+          "distance_to_ego_m": 86.7
+        },
+        {
+          "id": "17",
+          "x": "964.32",
+          "y": "161.00",
+          "speed": "9.01",
+          "lane": "236579256_0",
+          "distance_to_ego_m": 98.9
+        },
+        {
+          "id": "18",
+          "x": "1033.16",
+          "y": "125.18",
+          "speed": "11.00",
+          "lane": ":cluster_2003929498_2003938792_5_1",
+          "distance_to_ego_m": 47.9
+        },
+        {
+          "id": "19",
+          "x": "1019.91",
+          "y": "132.82",
+          "speed": "10.47",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 52.5
+        },
+        {
+          "id": "20",
+          "x": "1006.84",
+          "y": "140.31",
+          "speed": "10.01",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 60.6
+        },
+        {
+          "id": "21",
+          "x": "993.95",
+          "y": "147.70",
+          "speed": "9.61",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 70.8
+        },
+        {
+          "id": "22",
+          "x": "981.20",
+          "y": "155.01",
+          "speed": "9.28",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 82.4
+        },
+        {
+          "id": "23",
+          "x": "968.55",
+          "y": "162.26",
+          "speed": "9.01",
+          "lane": "236579256_1",
+          "distance_to_ego_m": 94.7
+        },
+        {
+          "id": "24",
+          "x": "956.52",
+          "y": "183.95",
+          "speed": "11.00",
+          "lane": ":4257911825_0_0",
+          "distance_to_ego_m": 108.9
+        },
+        {
+          "id": "25",
+          "x": "969.65",
+          "y": "176.10",
+          "speed": "10.47",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 94.6
+        },
+        {
+          "id": "26",
+          "x": "982.64",
+          "y": "168.50",
+          "speed": "10.01",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 80.8
+        },
+        {
+          "id": "27",
+          "x": "995.47",
+          "y": "161.01",
+          "speed": "9.61",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 67.8
+        },
+        {
+          "id": "28",
+          "x": "1008.16",
+          "y": "153.59",
+          "speed": "9.28",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 55.8
+        },
+        {
+          "id": "29",
+          "x": "1020.75",
+          "y": "146.23",
+          "speed": "9.01",
+          "lane": "426498646_0",
+          "distance_to_ego_m": 45.5
+        },
+        {
+          "id": "30",
+          "x": "963.89",
+          "y": "175.76",
+          "speed": "11.00",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 100.3
+        },
+        {
+          "id": "31",
+          "x": "977.10",
+          "y": "168.04",
+          "speed": "10.47",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 86.3
+        },
+        {
+          "id": "32",
+          "x": "990.09",
+          "y": "160.45",
+          "speed": "10.01",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 73.2
+        },
+        {
+          "id": "33",
+          "x": "1002.92",
+          "y": "152.95",
+          "speed": "9.61",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 61.1
+        },
+        {
+          "id": "34",
+          "x": "1015.61",
+          "y": "145.53",
+          "speed": "9.28",
+          "lane": "426498646_1",
+          "distance_to_ego_m": 50.5
+        },
+        {
+          "id": "35",
+          "x": "1111.80",
+          "y": "75.71",
+          "speed": "4.46",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 99.4
+        },
+        {
+          "id": "36",
+          "x": "1097.94",
+          "y": "83.78",
+          "speed": "2.26",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 86.0
+        },
+        {
+          "id": "37",
+          "x": "1086.07",
+          "y": "90.69",
+          "speed": "2.22",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 75.3
+        },
+        {
+          "id": "38",
+          "x": "1074.22",
+          "y": "97.59",
+          "speed": "2.28",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 65.8
+        },
+        {
+          "id": "39",
+          "x": "1062.35",
+          "y": "104.50",
+          "speed": "2.51",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 57.9
+        },
+        {
+          "id": "40",
+          "x": "1118.85",
+          "y": "71.61",
+          "speed": "7.22",
+          "lane": "627757427#0_0",
+          "distance_to_ego_m": 106.5
+        },
+        {
+          "id": "41",
+          "x": "1105.29",
+          "y": "83.19",
+          "speed": "4.70",
+          "lane": "627757427#0_1",
+          "distance_to_ego_m": 89.7
+        },
+        {
+          "id": "42",
+          "x": "1093.22",
+          "y": "90.22",
+          "speed": "4.89",
+          "lane": "627757427#0_1",
+          "distance_to_ego_m": 78.2
+        },
+        {
+          "id": "43",
+          "x": "1081.13",
+          "y": "97.26",
+          "speed": "5.09",
+          "lane": "627757427#0_1",
+          "distance_to_ego_m": 67.6
+        },
+        {
+          "id": "44",
+          "x": "1069.02",
+          "y": "104.31",
+          "speed": "5.28",
+          "lane": "627757427#0_1",
+          "distance_to_ego_m": 58.4
+        },
+        {
+          "id": "6",
+          "x": "1054.87",
+          "y": "137.03",
+          "speed": "6.81",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 26.7
+        },
+        {
+          "id": "7",
+          "x": "1062.16",
+          "y": "148.97",
+          "speed": "7.19",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 13.5
+        },
+        {
+          "id": "8",
+          "x": "1069.56",
+          "y": "161.05",
+          "speed": "7.53",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 6.5
+        },
+        {
+          "id": "9",
+          "x": "1077.00",
+          "y": "173.21",
+          "speed": "7.80",
+          "lane": "8648213#0_1",
+          "distance_to_ego_m": 17.5
+        }
+      ]
+    },
+    "pass": true
+  }
+]

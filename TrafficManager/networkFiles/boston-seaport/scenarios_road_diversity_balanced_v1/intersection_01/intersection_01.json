@@ -1,0 +1,117 @@
+{
+  "scene_id": "intersection_01",
+  "morphology": "intersection",
+  "ego_edge": "292967029#1",
+  "junction_id": "cluster_2936200697_2936200700_2965205157_61444012",
+  "road_length_m": 163.7,
+  "road_lanes": 2,
+  "planned_vehicles": 13,
+  "vehicles": [
+    {
+      "id": "0",
+      "role": "ego",
+      "start_edge": "292967029#1",
+      "lane": 0,
+      "position_m": 128.7,
+      "route": "292967029#1 485262838"
+    },
+    {
+      "id": "1",
+      "role": "traffic",
+      "start_edge": "292967029#1",
+      "lane": 1,
+      "position_m": 136.7,
+      "route": "292967029#1 485262838"
+    },
+    {
+      "id": "2",
+      "role": "traffic",
+      "start_edge": "292967029#1",
+      "lane": 1,
+      "position_m": 98.7,
+      "route": "292967029#1 485262838"
+    },
+    {
+      "id": "3",
+      "role": "traffic",
+      "start_edge": "292967029#1",
+      "lane": 0,
+      "position_m": 96.7,
+      "route": "292967029#1 485262838"
+    },
+    {
+      "id": "4",
+      "role": "traffic",
+      "start_edge": "426659557",
+      "lane": 0,
+      "position_m": 63.5,
+      "route": "426659557 533607551"
+    },
+    {
+      "id": "5",
+      "role": "traffic",
+      "start_edge": "426659557",
+      "lane": 1,
+      "position_m": 49.5,
+      "route": "426659557 533607551"
+    },
+    {
+      "id": "6",
+      "role": "traffic",
+      "start_edge": "426659557",
+      "lane": 0,
+      "position_m": 35.5,
+      "route": "426659557 533607551"
+    },
+    {
+      "id": "7",
+      "role": "traffic",
+      "start_edge": "292809927",
+      "lane": 0,
+      "position_m": 45,
+      "route": "292809927 8648213#0"
+    },
+    {
+      "id": "8",
+      "role": "traffic",
+      "start_edge": "292809927",
+      "lane": 1,
+      "position_m": 30,
+      "route": "292809927 8648213#0"
+    },
+    {
+      "id": "9",
+      "role": "traffic",
+      "start_edge": "292809927",
+      "lane": 0,
+      "position_m": 15,
+      "route": "292809927 8648213#0"
+    },
+    {
+      "id": "10",
+      "role": "traffic",
+      "start_edge": "485262838",
+      "lane": 0,
+      "position_m": 45,
+      "route": "485262838 -947879228"
+    },
+    {
+      "id": "11",
+      "role": "traffic",
+      "start_edge": "485262838",
+      "lane": 1,
+      "position_m": 30,
+      "route": "485262838 -947879228"
+    },
+    {
+      "id": "12",
+      "role": "traffic",
+      "start_edge": "485262838",
+      "lane": 0,
+      "position_m": 15,
+      "route": "485262838 -947879228"
+    }
+  ],
+  "density_profile": "balanced",
+  "purpose": "SUMO traffic preview only; no attack"
+}

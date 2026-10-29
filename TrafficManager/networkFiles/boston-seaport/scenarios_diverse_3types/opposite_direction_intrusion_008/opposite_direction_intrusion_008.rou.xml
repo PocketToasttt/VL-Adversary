@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType id="default_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,255,255"/>
+    <vType id="ego_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,0,0"/>
+    <vType id="attacker_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.8" decel="5.0" sigma="0.05" color="255,128,0"/>
+
+    <!-- scene_id=opposite_direction_intrusion_008 | ego_id=552 | attacker_id=555 | attack_type=opposite_direction_intrusion | 对向交互[medium_balanced] @ -1121694527#1 / 426491386#0 -->
+    <vehicle id="553" type="default_type" depart="0.00" departLane="1" departPos="62.7" departSpeed="4.9">
+        <route edges="-1121694527#1 426491386#0 -8647521#1 1121696256#0"/>
+        <param key="scene_id" value="opposite_direction_intrusion_008"/>
+        <param key="scenario_type" value="oncoming"/>
+        <param key="attack_type" value="opposite_direction_intrusion"/>
+        <param key="attacker_id" value="555"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="552"/>
+    </vehicle>
+    <vehicle id="552" type="ego_type" depart="0.00" departLane="1" departPos="48.0" departSpeed="5.7">
+        <route edges="-1121694527#1 426491386#0 -8647521#1 1121696256#0"/>
+        <param key="scene_id" value="opposite_direction_intrusion_008"/>
+        <param key="scenario_type" value="oncoming"/>
+        <param key="attack_type" value="opposite_direction_intrusion"/>
+        <param key="attacker_id" value="555"/>
+        <param key="role" value="ego"/>
+        <param key="scene_ego_id" value="552"/>
+    </vehicle>
+    <vehicle id="554" type="default_type" depart="0.00" departLane="1" departPos="60.5" departSpeed="6.1">
+        <route edges="426491386#0 -1121694527#1 426488940#0 8646770"/>
+        <param key="scene_id" value="opposite_direction_intrusion_008"/>
+        <param key="scenario_type" value="oncoming"/>
+        <param key="attack_type" value="opposite_direction_intrusion"/>
+        <param key="attacker_id" value="555"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="552"/>
+    </vehicle>
+    <vehicle id="555" type="attacker_type" depart="0.00" departLane="1" departPos="49.1" departSpeed="4.8">
+        <route edges="426491386#0 -1121694527#1 426488940#0 8646770"/>
+        <param key="scene_id" value="opposite_direction_intrusion_008"/>
+        <param key="scenario_type" value="oncoming"/>
+        <param key="attack_type" value="opposite_direction_intrusion"/>
+        <param key="attacker_id" value="555"/>
+        <param key="role" value="attacker_candidate"/>
+        <param key="scene_ego_id" value="552"/>
+    </vehicle>
+    <vehicle id="557" type="default_type" depart="0.00" departLane="0" departPos="10.1" departSpeed="10.8">
+        <route edges="426497570#0 8646460"/>
+        <param key="scene_id" value="opposite_direction_intrusion_008"/>
+        <param key="scenario_type" value="oncoming"/>
+        <param key="attack_type" value="opposite_direction_intrusion"/>
+        <param key="attacker_id" value="555"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="552"/>
+    </vehicle>
+    <vehicle id="556" type="default_type" depart="0.00" departLane="1" departPos="5.3" departSpeed="11.0">
+        <route edges="541022699 426498643#0"/>
+        <param key="scene_id" value="opposite_direction_intrusion_008"/>
+        <param key="scenario_type" value="oncoming"/>
+        <param key="attack_type" value="opposite_direction_intrusion"/>
+        <param key="attacker_id" value="555"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="552"/>
+    </vehicle>
+
+</routes>

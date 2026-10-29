@@ -1,0 +1,133 @@
+{
+  "scene_id": "intersection_02",
+  "morphology": "intersection",
+  "ego_edge": "426491386#0",
+  "junction_id": "61340896",
+  "road_length_m": 163.2,
+  "road_lanes": 2,
+  "planned_vehicles": 15,
+  "vehicles": [
+    {
+      "id": "0",
+      "role": "ego",
+      "start_edge": "426491386#0",
+      "lane": 0,
+      "position_m": 128.2,
+      "route": "426491386#0 -8647521#1"
+    },
+    {
+      "id": "1",
+      "role": "traffic",
+      "start_edge": "426491386#0",
+      "lane": 1,
+      "position_m": 136.2,
+      "route": "426491386#0 -8647521#1"
+    },
+    {
+      "id": "2",
+      "role": "traffic",
+      "start_edge": "426491386#0",
+      "lane": 1,
+      "position_m": 98.2,
+      "route": "426491386#0 -8647521#1"
+    },
+    {
+      "id": "3",
+      "role": "traffic",
+      "start_edge": "426491386#0",
+      "lane": 0,
+      "position_m": 96.2,
+      "route": "426491386#0 -8647521#1"
+    },
+    {
+      "id": "4",
+      "role": "traffic",
+      "start_edge": "-85890998#1",
+      "lane": 0,
+      "position_m": 41.9,
+      "route": "-85890998#1 -1121694527#1"
+    },
+    {
+      "id": "5",
+      "role": "traffic",
+      "start_edge": "-85890998#1",
+      "lane": 0,
+      "position_m": 13.9,
+      "route": "-85890998#1 -1121694527#1"
+    },
+    {
+      "id": "6",
+      "role": "traffic",
+      "start_edge": "1121696256#0",
+      "lane": 0,
+      "position_m": 62.6,
+      "route": "1121696256#0 8645381"
+    },
+    {
+      "id": "7",
+      "role": "traffic",
+      "start_edge": "1121696256#0",
+      "lane": 1,
+      "position_m": 48.6,
+      "route": "1121696256#0 8645381"
+    },
+    {
+      "id": "8",
+      "role": "traffic",
+      "start_edge": "1121696256#0",
+      "lane": 0,
+      "position_m": 34.6,
+      "route": "1121696256#0 8645381"
+    },
+    {
+      "id": "9",
+      "role": "traffic",
+      "start_edge": "-1121694527#1",
+      "lane": 0,
+      "position_m": 45,
+      "route": "-1121694527#1 426488940#0"
+    },
+    {
+      "id": "10",
+      "role": "traffic",
+      "start_edge": "-1121694527#1",
+      "lane": 1,
+      "position_m": 30,
+      "route": "-1121694527#1 426488940#0"
+    },
+    {
+      "id": "11",
+      "role": "traffic",
+      "start_edge": "-1121694527#1",
+      "lane": 0,
+      "position_m": 15,
+      "route": "-1121694527#1 426488940#0"
+    },
+    {
+      "id": "12",
+      "role": "traffic",
+      "start_edge": "-8647521#1",
+      "lane": 0,
+      "position_m": 45,
+      "route": "-8647521#1 592009791"
+    },
+    {
+      "id": "13",
+      "role": "traffic",
+      "start_edge": "-8647521#1",
+      "lane": 1,
+      "position_m": 30,
+      "route": "-8647521#1 592009791"
+    },
+    {
+      "id": "14",
+      "role": "traffic",
+      "start_edge": "-8647521#1",
+      "lane": 0,
+      "position_m": 15,
+      "route": "-8647521#1 592009791"
+    }
+  ],
+  "density_profile": "balanced",
+  "purpose": "SUMO traffic preview only; no attack"
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "opposite_direction_intrusion_004",
+  "scenario_type": "oncoming",
+  "attack_type": "opposite_direction_intrusion",
+  "ego_id": 529,
+  "attacker_candidate_id": 530,
+  "attack_type_cn": "对向车道入侵",
+  "description": "对向交互[close_fast] @ 292809927 / 292967029#1",
+  "focus_key": "292809927|292967029#1|profile=close_fast",
+  "scene_vehicle_ids": [
+    528,
+    529,
+    530,
+    531
+  ],
+  "background_vehicle_ids": [
+    532,
+    533
+  ],
+  "vehicle_count": 6,
+  "depart_range": [
+    0.0,
+    0.0
+  ],
+  "generated_files": {
+    "route_file": "TrafficManager/networkFiles/boston-seaport/scenarios_diverse_3types/opposite_direction_intrusion_004/opposite_direction_intrusion_004.rou.xml",
+    "config_file": "TrafficManager/networkFiles/boston-seaport/scenarios_diverse_3types/opposite_direction_intrusion_004/opposite_direction_intrusion_004.sumocfg"
+  },
+  "timestamp": "2026-07-20 20:09:27"
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "brake_check_016",
+  "scenario_type": "following",
+  "attack_type": "brake_check",
+  "ego_id": 113,
+  "attacker_candidate_id": 114,
+  "attack_type_cn": "前车急刹",
+  "description": "跟车群组[dense_medium] @ 426488942 (205m)",
+  "focus_key": "426488942|lane=1|template=dense_medium",
+  "scene_vehicle_ids": [
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117
+  ],
+  "background_vehicle_ids": [
+    118,
+    119
+  ],
+  "vehicle_count": 9,
+  "depart_range": [
+    0.0,
+    0.0
+  ],
+  "generated_files": {
+    "route_file": "TrafficManager/networkFiles/boston-seaport/scenarios_diverse_3types/brake_check_016/brake_check_016.rou.xml",
+    "config_file": "TrafficManager/networkFiles/boston-seaport/scenarios_diverse_3types/brake_check_016/brake_check_016.sumocfg"
+  },
+  "timestamp": "2026-07-20 20:09:25"
+}

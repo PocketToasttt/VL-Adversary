@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="default_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,255,255" />
+    <vType id="ego_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,0,0" />
+    <vType id="attacker_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.8" decel="5.0" sigma="0.05" color="255,128,0" />
+    <vehicle id="571" type="default_type" depart="0.00" departLane="1" departPos="68.7" departSpeed="6.5">
+        <route edges="-1120503844 -85890979 -427635744#1" />
+        <param key="scene_id" value="opposite_direction_intrusion_dense_009" />
+        <param key="scenario_type" value="oncoming" />
+        <param key="attack_type" value="opposite_direction_intrusion" />
+        <param key="attacker_id" value="573" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="570" />
+    </vehicle>
+    <vehicle id="570" type="ego_type" depart="0.00" departLane="1" departPos="49.8" departSpeed="6.1">
+        <route edges="-1120503844 -85890979 -427635744#1" />
+        <param key="scene_id" value="opposite_direction_intrusion_dense_009" />
+        <param key="scenario_type" value="oncoming" />
+        <param key="attack_type" value="opposite_direction_intrusion" />
+        <param key="attacker_id" value="573" />
+        <param key="role" value="ego" />
+        <param key="scene_ego_id" value="570" />
+    </vehicle>
+    <vehicle id="575" type="default_type" depart="0.00" departLane="0" departPos="19.5" departSpeed="11.3">
+        <route edges="290280037 -290280037" />
+        <param key="scene_id" value="opposite_direction_intrusion_dense_009" />
+        <param key="scenario_type" value="oncoming" />
+        <param key="attack_type" value="opposite_direction_intrusion" />
+        <param key="attacker_id" value="573" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="570" />
+    </vehicle>
+    <vehicle id="574" type="default_type" depart="0.00" departLane="0" departPos="11.7" departSpeed="9.3">
+        <route edges="426488942 85891007#0 292807009#0" />
+        <param key="scene_id" value="opposite_direction_intrusion_dense_009" />
+        <param key="scenario_type" value="oncoming" />
+        <param key="attack_type" value="opposite_direction_intrusion" />
+        <param key="attacker_id" value="573" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="570" />
+    </vehicle>
+    <vehicle id="572" type="default_type" depart="0.00" departLane="1" departPos="102.0" departSpeed="6.3">
+        <route edges="426488942 85891007#0 290084391#0" />
+        <param key="scene_id" value="opposite_direction_intrusion_dense_009" />
+        <param key="scenario_type" value="oncoming" />
+        <param key="attack_type" value="opposite_direction_intrusion" />
+        <param key="attacker_id" value="573" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="570" />
+    </vehicle>
+    <vehicle id="573" type="attacker_type" depart="0.00" departLane="1" departPos="84.5" departSpeed="5.2">
+        <route edges="426488942 85891007#0 290084391#0" />
+        <param key="scene_id" value="opposite_direction_intrusion_dense_009" />
+        <param key="scenario_type" value="oncoming" />
+        <param key="attack_type" value="opposite_direction_intrusion" />
+        <param key="attacker_id" value="573" />
+        <param key="role" value="attacker_candidate" />
+        <param key="scene_ego_id" value="570" />
+    </vehicle>
+    <vehicle id="576" type="default_type" depart="0.00" departLane="0" departPos="13.8" departSpeed="5.8">
+        <route edges="-1120503844 -85890979 -427635744#1" />
+        <param key="scene_id" value="opposite_direction_intrusion_dense_009" />
+        <param key="scenario_type" value="local_context" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="570" />
+    </vehicle>
+    <vehicle id="577" type="default_type" depart="0.00" departLane="0" departPos="85.8" departSpeed="5.0">
+        <route edges="-1120503844 -85890979 -427635744#1" />
+        <param key="scene_id" value="opposite_direction_intrusion_dense_009" />
+        <param key="scenario_type" value="local_context" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="570" />
+    </vehicle>
+    <vehicle id="578" type="default_type" depart="0.00" departLane="0" departPos="97.4" departSpeed="6.9">
+        <route edges="-1120503844 -85890979 -427635744#1" />
+        <param key="scene_id" value="opposite_direction_intrusion_dense_009" />
+        <param key="scenario_type" value="local_context" />
+        <param key="role" value="npc" />
+        <param key="scene_ego_id" value="570" />
+    </vehicle>
+</routes>

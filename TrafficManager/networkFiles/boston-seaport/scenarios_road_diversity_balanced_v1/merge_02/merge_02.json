@@ -1,0 +1,93 @@
+{
+  "scene_id": "merge_02",
+  "morphology": "merge",
+  "ego_edge": "8648213#0",
+  "junction_id": "cluster_2003929498_2003938792",
+  "road_length_m": 95.9,
+  "road_lanes": 2,
+  "planned_vehicles": 10,
+  "vehicles": [
+    {
+      "id": "0",
+      "role": "ego",
+      "start_edge": "8648213#0",
+      "lane": 0,
+      "position_m": 60.9,
+      "route": "8648213#0 426498646"
+    },
+    {
+      "id": "1",
+      "role": "traffic",
+      "start_edge": "8648213#0",
+      "lane": 1,
+      "position_m": 68.9,
+      "route": "8648213#0 426498646"
+    },
+    {
+      "id": "2",
+      "role": "traffic",
+      "start_edge": "8648213#0",
+      "lane": 1,
+      "position_m": 30.9,
+      "route": "8648213#0 426498646"
+    },
+    {
+      "id": "3",
+      "role": "traffic",
+      "start_edge": "8648213#0",
+      "lane": 0,
+      "position_m": 28.9,
+      "route": "8648213#0 426498646"
+    },
+    {
+      "id": "4",
+      "role": "traffic",
+      "start_edge": "236579256",
+      "lane": 0,
+      "position_m": 109.3,
+      "route": "236579256 627757427#0"
+    },
+    {
+      "id": "5",
+      "role": "traffic",
+      "start_edge": "236579256",
+      "lane": 1,
+      "position_m": 95.3,
+      "route": "236579256 627757427#0"
+    },
+    {
+      "id": "6",
+      "role": "traffic",
+      "start_edge": "236579256",
+      "lane": 0,
+      "position_m": 81.3,
+      "route": "236579256 627757427#0"
+    },
+    {
+      "id": "7",
+      "role": "traffic",
+      "start_edge": "426498646",
+      "lane": 0,
+      "position_m": 45,
+      "route": "426498646 426498206"
+    },
+    {
+      "id": "8",
+      "role": "traffic",
+      "start_edge": "426498646",
+      "lane": 1,
+      "position_m": 30,
+      "route": "426498646 426498206"
+    },
+    {
+      "id": "9",
+      "role": "traffic",
+      "start_edge": "426498646",
+      "lane": 0,
+      "position_m": 15,
+      "route": "426498646 426498206"
+    }
+  ],
+  "density_profile": "balanced",
+  "purpose": "SUMO traffic preview only; no attack"
+}

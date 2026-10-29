@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType id="default_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,255,255"/>
+    <vType id="ego_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,0,0"/>
+    <vType id="attacker_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.8" decel="5.0" sigma="0.05" color="255,128,0"/>
+
+    <!-- scene_id=brake_check_002 | ego_id=10 | attacker_id=11 | attack_type=brake_check | 跟车群组[dense_medium] @ 292809927 (163m) -->
+    <vehicle id="15" type="default_type" depart="0.00" departLane="0" departPos="10.6" departSpeed="9.3">
+        <route edges="-8647263 734528310 -993825360#1 993825359"/>
+        <param key="scene_id" value="brake_check_002"/>
+        <param key="scenario_type" value="following"/>
+        <param key="attack_type" value="brake_check"/>
+        <param key="attacker_id" value="11"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="10"/>
+    </vehicle>
+    <vehicle id="11" type="attacker_type" depart="0.00" departLane="0" departPos="56.4" departSpeed="9.1">
+        <route edges="292809927 295175439 8642161"/>
+        <param key="scene_id" value="brake_check_002"/>
+        <param key="scenario_type" value="following"/>
+        <param key="attack_type" value="brake_check"/>
+        <param key="attacker_id" value="11"/>
+        <param key="role" value="attacker_candidate"/>
+        <param key="scene_ego_id" value="10"/>
+    </vehicle>
+    <vehicle id="10" type="ego_type" depart="0.00" departLane="0" departPos="42.6" departSpeed="8.2">
+        <route edges="292809927 295175439 8642161"/>
+        <param key="scene_id" value="brake_check_002"/>
+        <param key="scenario_type" value="following"/>
+        <param key="attack_type" value="brake_check"/>
+        <param key="attacker_id" value="11"/>
+        <param key="role" value="ego"/>
+        <param key="scene_ego_id" value="10"/>
+    </vehicle>
+    <vehicle id="9" type="default_type" depart="0.00" departLane="0" departPos="27.6" departSpeed="8.1">
+        <route edges="292809927 295175439 8642161"/>
+        <param key="scene_id" value="brake_check_002"/>
+        <param key="scenario_type" value="following"/>
+        <param key="attack_type" value="brake_check"/>
+        <param key="attacker_id" value="11"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="10"/>
+    </vehicle>
+    <vehicle id="8" type="default_type" depart="0.00" departLane="0" departPos="11.8" departSpeed="9.0">
+        <route edges="292809927 295175439 8642161"/>
+        <param key="scene_id" value="brake_check_002"/>
+        <param key="scenario_type" value="following"/>
+        <param key="attack_type" value="brake_check"/>
+        <param key="attacker_id" value="11"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="10"/>
+    </vehicle>
+    <vehicle id="13" type="default_type" depart="0.00" departLane="1" departPos="39.5" departSpeed="8.5">
+        <route edges="292809927 295175439 8642161"/>
+        <param key="scene_id" value="brake_check_002"/>
+        <param key="scenario_type" value="following"/>
+        <param key="attack_type" value="brake_check"/>
+        <param key="attacker_id" value="11"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="10"/>
+    </vehicle>
+    <vehicle id="12" type="default_type" depart="0.00" departLane="1" departPos="39.1" departSpeed="9.5">
+        <route edges="292809927 295175439 8642161"/>
+        <param key="scene_id" value="brake_check_002"/>
+        <param key="scenario_type" value="following"/>
+        <param key="attack_type" value="brake_check"/>
+        <param key="attacker_id" value="11"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="10"/>
+    </vehicle>
+    <vehicle id="14" type="default_type" depart="0.00" departLane="2" departPos="56.6" departSpeed="5.6">
+        <route edges="426498206 541022697 236579256"/>
+        <param key="scene_id" value="brake_check_002"/>
+        <param key="scenario_type" value="following"/>
+        <param key="attack_type" value="brake_check"/>
+        <param key="attacker_id" value="11"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="10"/>
+    </vehicle>
+
+</routes>

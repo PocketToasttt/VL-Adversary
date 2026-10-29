@@ -1,0 +1,47 @@
+{
+  "scene_id": "opposite_direction_intrusion_dense_010",
+  "scenario_type": "oncoming",
+  "attack_type": "opposite_direction_intrusion",
+  "ego_id": 564,
+  "attacker_candidate_id": 567,
+  "attack_type_cn": "对向车道入侵",
+  "description": "对向交互[close_fast] @ -1120503844 / 426488942",
+  "focus_key": "-1120503844|426488942|profile=close_fast",
+  "scene_vehicle_ids": [
+    564,
+    565,
+    566,
+    567
+  ],
+  "background_vehicle_ids": [
+    568,
+    569,
+    570,
+    571,
+    572
+  ],
+  "vehicle_count": 9,
+  "depart_range": [
+    0.0,
+    0.0
+  ],
+  "generated_files": {
+    "route_file": "TrafficManager/networkFiles/boston-seaport/scenarios_dense_closedloop_pilot_v2/opposite_direction_intrusion_dense_010/opposite_direction_intrusion_dense_010.rou.xml",
+    "config_file": "TrafficManager/networkFiles/boston-seaport/scenarios_dense_closedloop_pilot_v2/opposite_direction_intrusion_dense_010/opposite_direction_intrusion_dense_010.sumocfg"
+  },
+  "source_timestamp": "2026-07-20 20:09:27",
+  "source_scene_id": "opposite_direction_intrusion_010",
+  "handover_clearance_m": {
+    "front_before": 15.499999999999993,
+    "rear_before": null,
+    "front_after": 17.999999999999993,
+    "rear_after": null
+  },
+  "added_local_vehicle_ids": [
+    570,
+    571,
+    572
+  ],
+  "validation_status": "static_only_requires_sumo_and_closedloop_pilot",
+  "generated_at": "2026-10-20T09:47:10.156463+00:00"
+}

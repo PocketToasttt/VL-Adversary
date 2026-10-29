@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType id="default_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,255,255"/>
+    <vType id="ego_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.1" color="255,0,0"/>
+    <vType id="attacker_type" vClass="passenger" guiShape="passenger" length="4.5" minGap="1.5" tau="0.8" maxSpeed="13.89" accel="2.8" decel="5.0" sigma="0.05" color="255,128,0"/>
+
+    <!-- scene_id=cut_in_008 | ego_id=315 | attacker_id=316 | attack_type=cut_in | 多样化切入[left_side] @ -292967031#0 (96m, 2车道) -->
+    <vehicle id="318" type="default_type" depart="0.00" departLane="0" departPos="80.1" departSpeed="8.1">
+        <route edges="-292967031#0 -94482795 -632602969 633904939#0 -947879228"/>
+        <param key="scene_id" value="cut_in_008"/>
+        <param key="scenario_type" value="parallel"/>
+        <param key="attack_type" value="cut_in"/>
+        <param key="attacker_id" value="316"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="315"/>
+    </vehicle>
+    <vehicle id="315" type="ego_type" depart="0.00" departLane="0" departPos="54.9" departSpeed="8.2">
+        <route edges="-292967031#0 -94482795 -632602969 633904939#0 -947879228"/>
+        <param key="scene_id" value="cut_in_008"/>
+        <param key="scenario_type" value="parallel"/>
+        <param key="attack_type" value="cut_in"/>
+        <param key="attacker_id" value="316"/>
+        <param key="role" value="ego"/>
+        <param key="scene_ego_id" value="315"/>
+    </vehicle>
+    <vehicle id="317" type="default_type" depart="0.00" departLane="0" departPos="33.3" departSpeed="6.8">
+        <route edges="-292967031#0 -94482795 -632602969 633904939#0 -947879228"/>
+        <param key="scene_id" value="cut_in_008"/>
+        <param key="scenario_type" value="parallel"/>
+        <param key="attack_type" value="cut_in"/>
+        <param key="attacker_id" value="316"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="315"/>
+    </vehicle>
+    <vehicle id="319" type="default_type" depart="0.00" departLane="1" departPos="72.4" departSpeed="6.9">
+        <route edges="-292967031#0 -94482795 -632602969 633904939#0 -947879228"/>
+        <param key="scene_id" value="cut_in_008"/>
+        <param key="scenario_type" value="parallel"/>
+        <param key="attack_type" value="cut_in"/>
+        <param key="attacker_id" value="316"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="315"/>
+    </vehicle>
+    <vehicle id="316" type="attacker_type" depart="0.00" departLane="1" departPos="53.4" departSpeed="9.1">
+        <route edges="-292967031#0 -94482795 -632602969 633904939#0 -947879228"/>
+        <param key="scene_id" value="cut_in_008"/>
+        <param key="scenario_type" value="parallel"/>
+        <param key="attack_type" value="cut_in"/>
+        <param key="attacker_id" value="316"/>
+        <param key="role" value="attacker_candidate"/>
+        <param key="scene_ego_id" value="315"/>
+    </vehicle>
+    <vehicle id="321" type="default_type" depart="0.00" departLane="0" departPos="6.4" departSpeed="8.4">
+        <route edges="114182715#0 290280037"/>
+        <param key="scene_id" value="cut_in_008"/>
+        <param key="scenario_type" value="parallel"/>
+        <param key="attack_type" value="cut_in"/>
+        <param key="attacker_id" value="316"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="315"/>
+    </vehicle>
+    <vehicle id="320" type="default_type" depart="0.00" departLane="1" departPos="6.3" departSpeed="11.0">
+        <route edges="290276273 -290280037 114182715#1 -8652103#0"/>
+        <param key="scene_id" value="cut_in_008"/>
+        <param key="scenario_type" value="parallel"/>
+        <param key="attack_type" value="cut_in"/>
+        <param key="attacker_id" value="316"/>
+        <param key="role" value="npc"/>
+        <param key="scene_ego_id" value="315"/>
+    </vehicle>
+
+</routes>

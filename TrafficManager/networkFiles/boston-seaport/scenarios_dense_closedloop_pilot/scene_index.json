@@ -1,0 +1,728 @@
+{
+  "metadata": {
+    "source_index": "TrafficManager/networkFiles/boston-seaport/scenarios_diverse_3types/scene_index.json",
+    "seed": 20261020,
+    "extra_local_target": 3,
+    "front_handover_gap_m": 18,
+    "rear_handover_gap_m": 14,
+    "validation_status": "static_only",
+    "note": "Run SUMO no-attack preflight and UniAD closed-loop baseline before attack testing."
+  },
+  "statistics": {
+    "total_scenes": 30,
+    "scene_ids": [
+      "brake_check_dense_001",
+      "brake_check_dense_002",
+      "brake_check_dense_003",
+      "brake_check_dense_004",
+      "brake_check_dense_005",
+      "brake_check_dense_006",
+      "brake_check_dense_007",
+      "brake_check_dense_008",
+      "brake_check_dense_009",
+      "brake_check_dense_010",
+      "cut_in_dense_001",
+      "cut_in_dense_002",
+      "cut_in_dense_003",
+      "cut_in_dense_004",
+      "cut_in_dense_005",
+      "cut_in_dense_006",
+      "cut_in_dense_007",
+      "cut_in_dense_008",
+      "cut_in_dense_009",
+      "cut_in_dense_010",
+      "opposite_direction_intrusion_dense_001",
+      "opposite_direction_intrusion_dense_002",
+      "opposite_direction_intrusion_dense_003",
+      "opposite_direction_intrusion_dense_004",
+      "opposite_direction_intrusion_dense_005",
+      "opposite_direction_intrusion_dense_006",
+      "opposite_direction_intrusion_dense_007",
+      "opposite_direction_intrusion_dense_008",
+      "opposite_direction_intrusion_dense_009",
+      "opposite_direction_intrusion_dense_010"
+    ]
+  },
+  "scenes": [
+    {
+      "scene_id": "brake_check_dense_001",
+      "source_scene_id": "brake_check_032",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 234,
+      "attacker_candidate_id": 235,
+      "description": "跟车群组[accordion] @ 591235970#0 (120m)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        240,
+        241
+      ],
+      "handover_clearance_m": {
+        "front_before": 8.5,
+        "rear_before": 8.5,
+        "front_after": 18.0,
+        "rear_after": 14.0
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "brake_check_dense_002",
+      "source_scene_id": "brake_check_023",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 167,
+      "attacker_candidate_id": 168,
+      "description": "跟车群组[closing_in] @ 8641571#3 (159m)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        172,
+        173,
+        174
+      ],
+      "handover_clearance_m": {
+        "front_before": 12.0,
+        "rear_before": 14.800000000000011,
+        "front_after": 18.0,
+        "rear_after": 14.800000000000011
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "brake_check_dense_003",
+      "source_scene_id": "brake_check_035",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 259,
+      "attacker_candidate_id": 260,
+      "description": "跟车群组[dense_medium] @ 8648213#0 (96m)",
+      "vehicle_count": 12,
+      "added_local_vehicle_ids": [
+        266,
+        267,
+        268
+      ],
+      "handover_clearance_m": {
+        "front_before": 12.300000000000004,
+        "rear_before": 10.599999999999998,
+        "front_after": 18.0,
+        "rear_after": 14.0
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "brake_check_dense_004",
+      "source_scene_id": "brake_check_012",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 83,
+      "attacker_candidate_id": 84,
+      "description": "跟车群组[near_junction_queue] @ 1121696256#0 (91m)",
+      "vehicle_count": 11,
+      "added_local_vehicle_ids": [
+        89,
+        90,
+        91
+      ],
+      "handover_clearance_m": {
+        "front_before": 9.700000000000003,
+        "rear_before": 7.799999999999997,
+        "front_after": 18.0,
+        "rear_after": 14.0
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "brake_check_dense_005",
+      "source_scene_id": "brake_check_030",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 218,
+      "attacker_candidate_id": 219,
+      "description": "跟车群组[accordion] @ -8642161 (314m)",
+      "vehicle_count": 11,
+      "added_local_vehicle_ids": [
+        224,
+        225,
+        226
+      ],
+      "handover_clearance_m": {
+        "front_before": 11.399999999999991,
+        "rear_before": 14.100000000000009,
+        "front_after": 18.0,
+        "rear_after": 14.100000000000009
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "brake_check_dense_006",
+      "source_scene_id": "brake_check_003",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 19,
+      "attacker_candidate_id": 20,
+      "description": "跟车群组[closing_in] @ 426659557 (92m)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        24,
+        25,
+        26
+      ],
+      "handover_clearance_m": {
+        "front_before": 15.0,
+        "rear_before": 19.099999999999998,
+        "front_after": 18.0,
+        "rear_after": 19.099999999999998
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "brake_check_dense_007",
+      "source_scene_id": "brake_check_017",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 122,
+      "attacker_candidate_id": 123,
+      "description": "跟车群组[dense_low] @ 541022699 (77m)",
+      "vehicle_count": 12,
+      "added_local_vehicle_ids": [
+        129,
+        130,
+        131
+      ],
+      "handover_clearance_m": {
+        "front_before": 9.200000000000003,
+        "rear_before": 8.5,
+        "front_after": 18.0,
+        "rear_after": 14.0
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "brake_check_dense_008",
+      "source_scene_id": "brake_check_020",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 144,
+      "attacker_candidate_id": 145,
+      "description": "跟车群组[dense_medium] @ 306150212#0 (92m)",
+      "vehicle_count": 11,
+      "added_local_vehicle_ids": [
+        151,
+        152,
+        153
+      ],
+      "handover_clearance_m": {
+        "front_before": 14.299999999999997,
+        "rear_before": 15.600000000000001,
+        "front_after": 18.0,
+        "rear_after": 15.600000000000001
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "brake_check_dense_009",
+      "source_scene_id": "brake_check_008",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 53,
+      "attacker_candidate_id": 54,
+      "description": "跟车群组[near_junction_queue] @ 290084391#0 (136m)",
+      "vehicle_count": 11,
+      "added_local_vehicle_ids": [
+        59,
+        60,
+        61
+      ],
+      "handover_clearance_m": {
+        "front_before": 10.0,
+        "rear_before": 10.599999999999994,
+        "front_after": 18.0,
+        "rear_after": 14.0
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "brake_check_dense_010",
+      "source_scene_id": "brake_check_011",
+      "scenario_type": "following",
+      "attack_type": "brake_check",
+      "ego_id": 76,
+      "attacker_candidate_id": 77,
+      "description": "跟车群组[accordion] @ 8646223#1 (162m)",
+      "vehicle_count": 11,
+      "added_local_vehicle_ids": [
+        81,
+        82,
+        83
+      ],
+      "handover_clearance_m": {
+        "front_before": 8.599999999999994,
+        "rear_before": 8.700000000000003,
+        "front_after": 18.0,
+        "rear_after": 14.0
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_001",
+      "source_scene_id": "cut_in_031",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 475,
+      "attacker_candidate_id": 476,
+      "description": "多样化切入[left_rear] @ 533607551 (76m, 2车道)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        482,
+        483,
+        484
+      ],
+      "handover_clearance_m": {
+        "front_before": 25.0,
+        "rear_before": 21.499999999999996,
+        "front_after": 25.0,
+        "rear_after": 21.499999999999996
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_002",
+      "source_scene_id": "cut_in_032",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 482,
+      "attacker_candidate_id": 483,
+      "description": "多样化切入[left_side] @ 292967029#1 (164m, 2车道)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        489,
+        490,
+        491
+      ],
+      "handover_clearance_m": {
+        "front_before": 29.900000000000006,
+        "rear_before": 20.299999999999997,
+        "front_after": 29.900000000000006,
+        "rear_after": 20.299999999999997
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_003",
+      "source_scene_id": "cut_in_022",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 412,
+      "attacker_candidate_id": 413,
+      "description": "多样化切入[right_rear] @ 518404079#0 (89m, 2车道)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        419,
+        420,
+        421
+      ],
+      "handover_clearance_m": {
+        "front_before": 25.799999999999997,
+        "rear_before": 20.000000000000004,
+        "front_after": 25.799999999999997,
+        "rear_after": 20.000000000000004
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_004",
+      "source_scene_id": "cut_in_009",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 322,
+      "attacker_candidate_id": 323,
+      "description": "多样化切入[left_front] @ 426498646 (94m, 2车道)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        329,
+        330,
+        331
+      ],
+      "handover_clearance_m": {
+        "front_before": 17.200000000000003,
+        "rear_before": 18.099999999999994,
+        "front_after": 18.0,
+        "rear_after": 18.099999999999994
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_005",
+      "source_scene_id": "cut_in_019",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 391,
+      "attacker_candidate_id": 392,
+      "description": "多样化切入[left_rear] @ 627757427#0 (83m, 2车道)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        398,
+        399,
+        400
+      ],
+      "handover_clearance_m": {
+        "front_before": 28.900000000000006,
+        "rear_before": 14.3,
+        "front_after": 28.900000000000006,
+        "rear_after": 14.3
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_006",
+      "source_scene_id": "cut_in_030",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 468,
+      "attacker_candidate_id": 469,
+      "description": "多样化切入[right_front] @ 1121696256#0 (91m, 2车道)",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        475,
+        476
+      ],
+      "handover_clearance_m": {
+        "front_before": 28.700000000000003,
+        "rear_before": 16.999999999999996,
+        "front_after": 28.700000000000003,
+        "rear_after": 16.999999999999996
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_007",
+      "source_scene_id": "cut_in_016",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 370,
+      "attacker_candidate_id": 371,
+      "description": "多样化切入[right_rear] @ -8647521#1 (95m, 2车道)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        377,
+        378,
+        379
+      ],
+      "handover_clearance_m": {
+        "front_before": 23.900000000000002,
+        "rear_before": 15.9,
+        "front_after": 23.900000000000002,
+        "rear_after": 15.9
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_008",
+      "source_scene_id": "cut_in_029",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 461,
+      "attacker_candidate_id": 462,
+      "description": "多样化切入[right_side] @ 8641654#0 (97m, 2车道)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        468,
+        469,
+        470
+      ],
+      "handover_clearance_m": {
+        "front_before": 26.6,
+        "rear_before": 20.9,
+        "front_after": 26.6,
+        "rear_after": 20.9
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_009",
+      "source_scene_id": "cut_in_003",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 280,
+      "attacker_candidate_id": 281,
+      "description": "多样化切入[left_front] @ 426491386#0 (163m, 2车道)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        287,
+        288,
+        289
+      ],
+      "handover_clearance_m": {
+        "front_before": 22.30000000000001,
+        "rear_before": 19.499999999999993,
+        "front_after": 22.30000000000001,
+        "rear_after": 19.499999999999993
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "cut_in_dense_010",
+      "source_scene_id": "cut_in_007",
+      "scenario_type": "parallel",
+      "attack_type": "cut_in",
+      "ego_id": 308,
+      "attacker_candidate_id": 309,
+      "description": "多样化切入[left_rear] @ 518404087 (103m, 2车道)",
+      "vehicle_count": 10,
+      "added_local_vehicle_ids": [
+        315,
+        316,
+        317
+      ],
+      "handover_clearance_m": {
+        "front_before": 28.5,
+        "rear_before": 20.9,
+        "front_after": 28.5,
+        "rear_after": 20.9
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_001",
+      "source_scene_id": "opposite_direction_intrusion_025",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 655,
+      "attacker_candidate_id": 656,
+      "description": "对向交互[close_fast] @ -1121694527#1 / 426491386#0",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        660,
+        661,
+        662
+      ],
+      "handover_clearance_m": {
+        "front_before": null,
+        "rear_before": 16.199999999999996,
+        "front_after": null,
+        "rear_after": 16.199999999999996
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_002",
+      "source_scene_id": "opposite_direction_intrusion_018",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 612,
+      "attacker_candidate_id": 614,
+      "description": "对向交互[far_high_speed] @ 292809927 / 292967029#1",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        618,
+        619,
+        620
+      ],
+      "handover_clearance_m": {
+        "front_before": 16.1,
+        "rear_before": null,
+        "front_after": 18.0,
+        "rear_after": null
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_003",
+      "source_scene_id": "opposite_direction_intrusion_023",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 642,
+      "attacker_candidate_id": 645,
+      "description": "对向交互[medium_balanced] @ -1120503844 / 426488942",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        648,
+        649,
+        650
+      ],
+      "handover_clearance_m": {
+        "front_before": 20.200000000000003,
+        "rear_before": null,
+        "front_after": 20.200000000000003,
+        "rear_after": null
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_004",
+      "source_scene_id": "opposite_direction_intrusion_004",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 529,
+      "attacker_candidate_id": 530,
+      "description": "对向交互[close_fast] @ 292809927 / 292967029#1",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        534,
+        535,
+        536
+      ],
+      "handover_clearance_m": {
+        "front_before": null,
+        "rear_before": 13.0,
+        "front_after": null,
+        "rear_after": 14.0
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_005",
+      "source_scene_id": "opposite_direction_intrusion_027",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 666,
+      "attacker_candidate_id": 668,
+      "description": "对向交互[far_high_speed] @ -1121694527#1 / 426491386#0",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        672,
+        673,
+        674
+      ],
+      "handover_clearance_m": {
+        "front_before": 14.400000000000006,
+        "rear_before": null,
+        "front_after": 18.0,
+        "rear_after": null
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_006",
+      "source_scene_id": "opposite_direction_intrusion_002",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 516,
+      "attacker_candidate_id": 519,
+      "description": "对向交互[medium_balanced] @ 292809927 / 292967029#1",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        522,
+        523,
+        524
+      ],
+      "handover_clearance_m": {
+        "front_before": 23.5,
+        "rear_before": null,
+        "front_after": 23.5,
+        "rear_after": null
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_007",
+      "source_scene_id": "opposite_direction_intrusion_007",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 546,
+      "attacker_candidate_id": 549,
+      "description": "对向交互[close_fast] @ 292809927 / 292967029#1",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        552,
+        553,
+        554
+      ],
+      "handover_clearance_m": {
+        "front_before": 21.2,
+        "rear_before": null,
+        "front_after": 21.2,
+        "rear_after": null
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_008",
+      "source_scene_id": "opposite_direction_intrusion_033",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 702,
+      "attacker_candidate_id": 704,
+      "description": "对向交互[far_high_speed] @ -1120503844 / 426488942",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        708,
+        709,
+        710
+      ],
+      "handover_clearance_m": {
+        "front_before": 19.39999999999999,
+        "rear_before": null,
+        "front_after": 19.39999999999999,
+        "rear_after": null
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_009",
+      "source_scene_id": "opposite_direction_intrusion_032",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 696,
+      "attacker_candidate_id": 698,
+      "description": "对向交互[medium_balanced] @ -1121694527#1 / 426491386#0",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        702,
+        703,
+        704
+      ],
+      "handover_clearance_m": {
+        "front_before": 21.5,
+        "rear_before": null,
+        "front_after": 21.5,
+        "rear_after": null
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    },
+    {
+      "scene_id": "opposite_direction_intrusion_dense_010",
+      "source_scene_id": "opposite_direction_intrusion_028",
+      "scenario_type": "oncoming",
+      "attack_type": "opposite_direction_intrusion",
+      "ego_id": 672,
+      "attacker_candidate_id": 674,
+      "description": "对向交互[close_fast] @ 292809927 / 292967029#1",
+      "vehicle_count": 9,
+      "added_local_vehicle_ids": [
+        678,
+        679,
+        680
+      ],
+      "handover_clearance_m": {
+        "front_before": 21.0,
+        "rear_before": null,
+        "front_after": 21.0,
+        "rear_after": null
+      },
+      "validation_status": "static_only_requires_sumo_and_closedloop_pilot"
+    }
+  ],
+  "rejected_sources": [
+    {
+      "source": "brake_check_014",
+      "reason": "insufficient_edge_length_for_handover_gap"
+    },
+    {
+      "source": "cut_in_021",
+      "reason": "too_few_local_traffic_slots"
+    },
+    {
+      "source": "cut_in_012",
+      "reason": "insufficient_edge_length_for_handover_gap"
+    },
+    {
+      "source": "cut_in_017",
+      "reason": "insufficient_edge_length_for_handover_gap"
+    },
+    {
+      "source": "cut_in_014",
+      "reason": "insufficient_edge_length_for_handover_gap"
+    }
+  ]
+}

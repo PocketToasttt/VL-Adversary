@@ -1,0 +1,48 @@
+{
+  "scene_id": "cut_in_dense_002",
+  "scenario_type": "parallel",
+  "attack_type": "cut_in",
+  "ego_id": 482,
+  "attacker_candidate_id": 483,
+  "attack_type_cn": "强行切入",
+  "description": "多样化切入[left_side] @ 292967029#1 (164m, 2车道)",
+  "focus_key": "292967029#1|side=left|zone=side",
+  "scene_vehicle_ids": [
+    482,
+    483,
+    484,
+    485,
+    486
+  ],
+  "background_vehicle_ids": [
+    487,
+    488,
+    489,
+    490,
+    491
+  ],
+  "vehicle_count": 10,
+  "depart_range": [
+    0.0,
+    0.0
+  ],
+  "generated_files": {
+    "route_file": "TrafficManager/networkFiles/boston-seaport/scenarios_dense_closedloop_pilot/cut_in_dense_002/cut_in_dense_002.rou.xml",
+    "config_file": "TrafficManager/networkFiles/boston-seaport/scenarios_dense_closedloop_pilot/cut_in_dense_002/cut_in_dense_002.sumocfg"
+  },
+  "source_scene_id": "cut_in_032",
+  "handover_clearance_m": {
+    "front_before": 29.900000000000006,
+    "rear_before": 20.299999999999997,
+    "front_after": 29.900000000000006,
+    "rear_after": 20.299999999999997
+  },
+  "added_local_vehicle_ids": [
+    489,
+    490,
+    491
+  ],
+  "validation_status": "static_only_requires_sumo_and_closedloop_pilot",
+  "source_timestamp": "2026-07-20 20:09:27",
+  "generated_at": "2026-10-20T09:46:32.348095+00:00"
+}

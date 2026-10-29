@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-20T18:18:11.929332+08:00 by Eclipse SUMO sumo 1.25.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/mnt/d/本科毕设代码Git/DriveArena-video/TrafficManager/networkFiles/boston-seaport/scenarios_high_density_road_shapes_v2/straight_01/../../osm.net.xml"/>
+        <route-files value="/mnt/d/本科毕设代码Git/DriveArena-video/TrafficManager/networkFiles/boston-seaport/scenarios_high_density_road_shapes_v2/straight_01/straight_01.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="/mnt/d/本科毕设代码Git/DriveArena-video/TrafficManager/networkFiles/boston-seaport/scenarios_high_density_road_shapes_v2/straight_01/straight_01.fcd.xml"/>
+        <collision-output value="/mnt/d/本科毕设代码Git/DriveArena-video/TrafficManager/networkFiles/boston-seaport/scenarios_high_density_road_shapes_v2/straight_01/straight_01.collisions.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="10"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="warn"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+    <report>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <fcd_device>
+        <device.fcd.period value="0.5"/>
+    </fcd_device>
+
+</sumoConfiguration>
+-->
+
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="0" x="375.20" y="738.74" angle="305.52" type="ego" speed="8.00" pos="112.70" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="362.51" y="747.79" angle="305.52" type="traffic" speed="8.00" pos="128.30" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="296.15" y="772.68" angle="125.52" type="traffic" speed="8.00" pos="8.00" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="302.13" y="775.90" angle="125.52" type="traffic" speed="8.00" pos="11.00" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="367.59" y="736.67" angle="305.52" type="traffic" speed="8.00" pos="117.80" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="0.50">
+        <vehicle id="0" x="371.70" y="741.23" angle="305.52" type="ego" speed="9.00" pos="117.00" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="359.01" y="750.29" angle="305.52" type="traffic" speed="9.00" pos="132.60" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="299.65" y="770.18" angle="125.52" type="traffic" speed="9.00" pos="12.30" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="305.62" y="773.41" angle="125.52" type="traffic" speed="9.00" pos="15.30" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="364.09" y="739.17" angle="305.52" type="traffic" speed="9.00" pos="122.10" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="1.00">
+        <vehicle id="0" x="367.85" y="743.98" angle="305.52" type="ego" speed="9.75" pos="121.74" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="355.11" y="753.08" angle="305.52" type="traffic" speed="10.00" pos="137.40" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="303.56" y="767.39" angle="125.52" type="traffic" speed="10.00" pos="17.10" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="309.53" y="770.62" angle="125.52" type="traffic" speed="10.00" pos="20.10" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="360.18" y="741.96" angle="305.52" type="traffic" speed="10.00" pos="126.90" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="1.50">
+        <vehicle id="0" x="363.73" y="746.92" angle="305.52" type="ego" speed="10.27" pos="126.80" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="350.87" y="756.10" angle="305.52" type="traffic" speed="10.49" pos="142.61" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="307.87" y="764.31" angle="125.52" type="traffic" speed="11.00" pos="22.40" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="313.76" y="767.60" angle="125.52" type="traffic" speed="10.47" pos="25.30" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="355.87" y="745.04" angle="305.52" type="traffic" speed="11.00" pos="132.20" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="2.00">
+        <vehicle id="0" x="359.54" y="749.91" angle="305.52" type="ego" speed="10.31" pos="131.95" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="346.61" y="759.15" angle="305.52" type="traffic" speed="10.49" pos="147.85" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="312.35" y="761.11" angle="125.52" type="traffic" speed="11.00" pos="27.90" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="318.01" y="764.56" angle="125.52" type="traffic" speed="10.47" pos="30.53" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="351.39" y="748.24" angle="305.52" type="traffic" speed="11.00" pos="137.70" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="2.50">
+        <vehicle id="0" x="355.34" y="752.91" angle="305.52" type="ego" speed="10.33" pos="137.11" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="342.34" y="762.19" angle="305.52" type="traffic" speed="10.49" pos="153.10" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="316.83" y="757.91" angle="125.52" type="traffic" speed="11.00" pos="33.40" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="309.18" y="763.37" angle="125.52" type="traffic" speed="8.48" pos="24.01" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="322.27" y="761.52" angle="125.52" type="traffic" speed="10.47" pos="35.77" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="314.42" y="767.13" angle="125.52" type="traffic" speed="8.13" pos="26.12" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="346.91" y="751.44" angle="305.52" type="traffic" speed="11.00" pos="143.20" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="354.56" y="745.97" angle="305.52" type="traffic" speed="8.48" pos="133.81" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="3.00">
+        <vehicle id="0" x="351.14" y="755.91" angle="305.52" type="ego" speed="10.36" pos="142.28" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="338.07" y="765.24" angle="305.52" type="traffic" speed="10.49" pos="158.34" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="321.31" y="754.71" angle="125.52" type="traffic" speed="11.00" pos="38.90" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="312.74" y="760.84" angle="125.52" type="traffic" speed="8.89" pos="28.37" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="326.53" y="758.49" angle="125.52" type="traffic" speed="10.47" pos="41.00" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="317.83" y="764.70" angle="125.52" type="traffic" speed="8.52" pos="30.30" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="342.43" y="754.63" angle="305.52" type="traffic" speed="11.00" pos="148.70" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="351.00" y="748.51" angle="305.52" type="traffic" speed="8.89" pos="138.17" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="3.50">
+        <vehicle id="0" x="346.92" y="758.92" angle="305.52" type="ego" speed="10.37" pos="147.47" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="333.81" y="768.28" angle="305.52" type="traffic" speed="10.49" pos="163.59" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="325.79" y="751.52" angle="125.52" type="traffic" speed="11.00" pos="44.40" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="316.44" y="758.19" angle="125.52" type="traffic" speed="9.22" pos="32.92" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="330.78" y="755.45" angle="125.52" type="traffic" speed="10.47" pos="46.23" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="321.37" y="762.17" angle="125.52" type="traffic" speed="8.83" pos="34.66" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="337.95" y="757.83" angle="305.52" type="traffic" speed="11.00" pos="154.20" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="347.30" y="751.15" angle="305.52" type="traffic" speed="9.22" pos="142.72" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.00">
+        <vehicle id="0" x="342.70" y="761.94" angle="305.52" type="ego" speed="10.39" pos="152.66" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="329.54" y="771.33" angle="305.52" type="traffic" speed="10.49" pos="168.83" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="330.27" y="748.32" angle="125.52" type="traffic" speed="11.00" pos="49.90" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="320.26" y="755.46" angle="125.52" type="traffic" speed="9.49" pos="37.61" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="335.04" y="752.41" angle="125.52" type="traffic" speed="10.47" pos="51.47" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="325.03" y="759.56" angle="125.52" type="traffic" speed="9.09" pos="39.15" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="350.86" y="756.11" angle="305.52" type="traffic" speed="8.20" pos="142.62" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="6" x="333.47" y="761.03" angle="305.52" type="traffic" speed="11.00" pos="159.70" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="343.48" y="753.88" angle="305.52" type="traffic" speed="9.49" pos="147.41" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.50">
+        <vehicle id="0" x="338.47" y="764.95" angle="305.52" type="ego" speed="10.41" pos="157.86" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="325.28" y="774.37" angle="305.52" type="traffic" speed="10.49" pos="174.08" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="334.75" y="745.12" angle="125.52" type="traffic" speed="11.00" pos="55.40" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="324.19" y="752.66" angle="125.52" type="traffic" speed="9.72" pos="42.43" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="339.30" y="749.37" angle="125.52" type="traffic" speed="10.47" pos="56.70" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="328.78" y="756.88" angle="125.52" type="traffic" speed="9.31" pos="43.77" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="347.43" y="758.56" angle="305.52" type="traffic" speed="8.58" pos="146.84" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="6" x="328.99" y="764.23" angle="305.52" type="traffic" speed="11.00" pos="165.20" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="339.56" y="756.68" angle="305.52" type="traffic" speed="9.72" pos="152.23" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="5.00">
+        <vehicle id="0" x="334.23" y="767.98" angle="305.52" type="ego" speed="10.42" pos="163.06" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="321.01" y="777.42" angle="305.52" type="traffic" speed="10.49" pos="179.32" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="339.23" y="741.92" angle="125.52" type="traffic" speed="11.00" pos="60.90" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="328.19" y="749.80" angle="125.52" type="traffic" speed="9.92" pos="47.35" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="318.80" y="756.50" angle="125.52" type="traffic" speed="8.20" pos="35.82" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="343.55" y="746.33" angle="125.52" type="traffic" speed="10.47" pos="61.93" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="332.61" y="754.15" angle="125.52" type="traffic" speed="9.49" pos="48.47" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="343.86" y="761.10" angle="305.52" type="traffic" speed="8.89" pos="151.22" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="6" x="324.51" y="767.42" angle="305.52" type="traffic" speed="11.00" pos="170.70" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="335.55" y="759.54" angle="305.52" type="traffic" speed="9.91" pos="157.15" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="344.94" y="752.84" angle="305.52" type="traffic" speed="8.20" pos="145.62" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="5.50">
+        <vehicle id="0" x="329.99" y="771.00" angle="305.52" type="ego" speed="10.43" pos="168.28" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="316.74" y="780.46" angle="305.52" type="traffic" speed="10.49" pos="184.57" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="343.71" y="738.72" angle="125.52" type="traffic" speed="11.00" pos="66.40" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="332.27" y="746.89" angle="125.52" type="traffic" speed="10.07" pos="52.35" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="322.30" y="754.01" angle="125.52" type="traffic" speed="8.75" pos="40.12" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="347.81" y="743.29" angle="125.52" type="traffic" speed="10.47" pos="67.17" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="336.50" y="751.37" angle="125.52" type="traffic" speed="9.63" pos="53.26" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="340.19" y="763.73" angle="305.52" type="traffic" speed="9.14" pos="155.75" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="20" x="326.76" y="758.32" angle="125.52" type="traffic" speed="8.33" pos="41.29" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="320.03" y="770.62" angle="305.52" type="traffic" speed="11.00" pos="176.20" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="331.51" y="762.42" angle="305.52" type="traffic" speed="9.91" pos="162.10" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="341.46" y="755.32" angle="305.52" type="traffic" speed="8.64" pos="149.89" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="6.00">
+        <vehicle id="0" x="325.75" y="774.03" angle="305.52" type="ego" speed="10.44" pos="173.49" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="312.48" y="783.51" angle="305.52" type="traffic" speed="10.49" pos="189.81" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="348.19" y="735.53" angle="125.52" type="traffic" speed="11.00" pos="71.90" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="336.41" y="743.94" angle="125.52" type="traffic" speed="10.21" pos="57.43" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="325.95" y="751.41" angle="125.52" type="traffic" speed="9.07" pos="44.59" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="352.07" y="740.26" angle="125.52" type="traffic" speed="10.47" pos="72.40" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="340.45" y="748.55" angle="125.52" type="traffic" speed="9.76" pos="58.12" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="336.42" y="766.42" angle="305.52" type="traffic" speed="9.35" pos="160.38" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="20" x="330.23" y="755.85" angle="125.52" type="traffic" speed="8.64" pos="45.55" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="315.55" y="773.82" angle="305.52" type="traffic" speed="11.00" pos="181.70" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="327.48" y="765.30" angle="305.52" type="traffic" speed="9.91" pos="167.05" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="337.89" y="757.87" angle="305.52" type="traffic" speed="8.84" pos="154.27" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="6.50">
+        <vehicle id="0" x="321.50" y="777.06" angle="305.52" type="ego" speed="10.44" pos="178.71" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="308.21" y="786.55" angle="305.52" type="traffic" speed="10.49" pos="195.06" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="352.67" y="732.33" angle="125.52" type="traffic" speed="11.00" pos="77.40" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="340.59" y="740.95" angle="125.52" type="traffic" speed="10.33" pos="62.57" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="329.70" y="748.72" angle="125.52" type="traffic" speed="9.33" pos="49.20" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="356.32" y="737.22" angle="125.52" type="traffic" speed="10.47" pos="77.63" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="344.45" y="745.70" angle="125.52" type="traffic" speed="9.87" pos="63.03" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="332.57" y="769.16" angle="305.52" type="traffic" speed="9.52" pos="165.10" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="20" x="333.81" y="753.29" angle="125.52" type="traffic" speed="8.90" pos="49.95" lane="426488942_1" slope="0.00"/>
+        <vehicle id="6" x="311.07" y="777.02" angle="305.52" type="traffic" speed="11.00" pos="187.20" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="323.45" y="768.18" angle="305.52" type="traffic" speed="9.91" pos="172.00" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="334.25" y="760.47" angle="305.52" type="traffic" speed="9.01" pos="158.74" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="7.00">
+        <vehicle id="0" x="317.26" y="780.10" angle="305.52" type="ego" speed="10.45" pos="183.94" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="1" x="303.94" y="789.60" angle="305.52" type="traffic" speed="10.49" pos="200.30" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="357.15" y="729.13" angle="125.52" type="traffic" speed="11.00" pos="82.90" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="344.82" y="737.93" angle="125.52" type="traffic" speed="10.42" pos="67.77" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="333.56" y="745.97" angle="125.52" type="traffic" speed="9.56" pos="53.94" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="360.58" y="734.18" angle="125.52" type="traffic" speed="10.47" pos="82.87" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="348.48" y="742.81" angle="125.52" type="traffic" speed="9.96" pos="67.99" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="328.67" y="771.95" angle="305.52" type="traffic" speed="9.66" pos="169.91" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="20" x="337.48" y="750.67" angle="125.52" type="traffic" speed="9.12" pos="54.47" lane="426488942_1" slope="0.00"/>
+        <vehicle id="3" x="338.52" y="764.92" angle="305.52" type="traffic" speed="8.40" pos="157.79" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="6" x="306.59" y="780.21" angle="305.52" type="traffic" speed="11.00" pos="192.70" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="319.41" y="771.06" angle="305.52" type="traffic" speed="9.91" pos="176.96" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="330.55" y="763.11" angle="305.52" type="traffic" speed="9.15" pos="163.29" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="7.50">
+        <vehicle id="0" x="313.00" y="783.13" angle="305.52" type="ego" speed="10.46" pos="189.17" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="361.63" y="725.93" angle="125.52" type="traffic" speed="11.00" pos="88.40" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="349.09" y="734.89" angle="125.52" type="traffic" speed="10.51" pos="73.00" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="337.51" y="743.15" angle="125.52" type="traffic" speed="9.76" pos="58.78" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="364.84" y="731.14" angle="125.52" type="traffic" speed="10.47" pos="88.10" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="352.55" y="739.91" angle="125.52" type="traffic" speed="10.03" pos="72.99" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="324.71" y="774.78" angle="305.52" type="traffic" speed="9.79" pos="174.78" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="20" x="341.24" y="747.98" angle="125.52" type="traffic" speed="9.31" pos="59.09" lane="426488942_1" slope="0.00"/>
+        <vehicle id="3" x="335.03" y="767.41" angle="305.52" type="traffic" speed="8.70" pos="162.09" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="6" x="302.11" y="783.41" angle="305.52" type="traffic" speed="11.00" pos="198.20" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="315.38" y="773.94" angle="305.52" type="traffic" speed="9.91" pos="181.91" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="326.79" y="765.79" angle="305.52" type="traffic" speed="9.27" pos="167.90" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="8.00">
+        <vehicle id="0" x="308.57" y="786.30" angle="305.52" type="ego" speed="11.00" pos="194.62" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="366.11" y="722.74" angle="125.52" type="traffic" speed="11.00" pos="93.90" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="353.38" y="731.82" angle="125.52" type="traffic" speed="10.58" pos="78.28" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="341.52" y="740.29" angle="125.52" type="traffic" speed="9.92" pos="63.71" lane="426488942_0" slope="0.00"/>
+        <vehicle id="15" x="331.86" y="747.19" angle="125.52" type="traffic" speed="8.50" pos="51.85" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="369.09" y="728.10" angle="125.52" type="traffic" speed="10.47" pos="93.33" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="356.65" y="736.99" angle="125.52" type="traffic" speed="10.10" pos="78.03" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="320.59" y="777.71" angle="305.52" type="traffic" speed="10.31" pos="179.83" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="20" x="345.07" y="745.25" angle="125.52" type="traffic" speed="9.47" pos="63.79" lane="426488942_1" slope="0.00"/>
+        <vehicle id="21" x="335.72" y="751.92" angle="125.52" type="traffic" speed="8.02" pos="52.30" lane="426488942_1" slope="0.00"/>
+        <vehicle id="3" x="331.37" y="770.02" angle="305.52" type="traffic" speed="9.28" pos="166.59" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="6" x="297.63" y="786.61" angle="305.52" type="traffic" speed="11.00" pos="203.70" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="7" x="311.35" y="776.82" angle="305.52" type="traffic" speed="9.91" pos="186.86" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="322.99" y="768.51" angle="305.52" type="traffic" speed="9.37" pos="172.56" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="9" x="333.26" y="761.18" angle="305.52" type="traffic" speed="8.37" pos="159.96" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="8.50">
+        <vehicle id="0" x="304.10" y="789.49" angle="305.52" type="ego" speed="11.00" pos="200.12" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="12" x="370.59" y="719.54" angle="125.52" type="traffic" speed="11.00" pos="99.40" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="357.71" y="728.73" angle="125.52" type="traffic" speed="10.64" pos="83.58" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="345.60" y="737.38" angle="125.52" type="traffic" speed="10.07" pos="68.72" lane="426488942_0" slope="0.00"/>
+        <vehicle id="15" x="335.40" y="744.65" angle="125.52" type="traffic" speed="8.84" pos="56.20" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="373.35" y="725.06" angle="125.52" type="traffic" speed="10.47" pos="98.57" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="360.76" y="734.05" angle="125.52" type="traffic" speed="10.15" pos="83.09" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="316.38" y="780.72" angle="305.52" type="traffic" speed="10.41" pos="185.02" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="20" x="348.95" y="742.48" angle="125.52" type="traffic" speed="9.61" pos="68.57" lane="426488942_1" slope="0.00"/>
+        <vehicle id="21" x="339.07" y="749.53" angle="125.52" type="traffic" speed="8.37" pos="56.42" lane="426488942_1" slope="0.00"/>
+        <vehicle id="3" x="327.54" y="772.76" angle="305.52" type="traffic" speed="9.52" pos="171.30" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="7" x="307.31" y="779.70" angle="305.52" type="traffic" speed="9.91" pos="191.82" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="319.16" y="771.24" angle="305.52" type="traffic" speed="9.45" pos="177.27" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="9" x="329.79" y="763.65" angle="305.52" type="traffic" speed="8.60" pos="164.21" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="9.00">
+        <vehicle id="0" x="299.77" y="792.79" angle="307.74" type="ego" speed="11.00" pos="0.80" lane=":61377241_0_0" slope="0.00"/>
+        <vehicle id="12" x="375.07" y="716.34" angle="125.52" type="traffic" speed="11.00" pos="104.90" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="362.05" y="725.63" angle="125.52" type="traffic" speed="10.69" pos="88.92" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="349.73" y="734.43" angle="125.52" type="traffic" speed="10.19" pos="73.79" lane="426488942_0" slope="0.00"/>
+        <vehicle id="15" x="339.08" y="742.03" angle="125.52" type="traffic" speed="9.13" pos="60.71" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="377.61" y="722.03" angle="125.52" type="traffic" speed="10.47" pos="103.80" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="364.90" y="731.09" angle="125.52" type="traffic" speed="10.20" pos="88.18" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="312.12" y="783.76" angle="305.52" type="traffic" speed="10.50" pos="190.25" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="20" x="352.89" y="739.67" angle="125.52" type="traffic" speed="9.72" pos="73.41" lane="426488942_1" slope="0.00"/>
+        <vehicle id="21" x="342.55" y="747.05" angle="125.52" type="traffic" speed="8.67" pos="60.70" lane="426488942_1" slope="0.00"/>
+        <vehicle id="3" x="323.61" y="775.56" angle="305.52" type="traffic" speed="9.72" pos="176.12" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="7" x="303.28" y="782.58" angle="305.52" type="traffic" speed="9.91" pos="196.77" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="315.29" y="774.00" angle="305.52" type="traffic" speed="9.52" pos="182.02" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="9" x="326.24" y="766.19" angle="305.52" type="traffic" speed="8.79" pos="168.57" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+    <timestep time="9.50">
+        <vehicle id="0" x="297.81" y="797.51" angle="341.65" type="ego" speed="11.00" pos="6.30" lane=":61377241_0_0" slope="0.00"/>
+        <vehicle id="12" x="379.55" y="713.14" angle="125.52" type="traffic" speed="11.00" pos="110.40" lane="426488942_0" slope="0.00"/>
+        <vehicle id="13" x="366.41" y="722.52" angle="125.52" type="traffic" speed="10.73" pos="94.27" lane="426488942_0" slope="0.00"/>
+        <vehicle id="14" x="353.90" y="731.45" angle="125.52" type="traffic" speed="10.30" pos="78.91" lane="426488942_0" slope="0.00"/>
+        <vehicle id="15" x="342.86" y="739.33" angle="125.52" type="traffic" speed="9.38" pos="65.35" lane="426488942_0" slope="0.00"/>
+        <vehicle id="18" x="381.86" y="718.99" angle="125.52" type="traffic" speed="10.47" pos="109.03" lane="426488942_1" slope="0.00"/>
+        <vehicle id="19" x="369.06" y="728.13" angle="125.52" type="traffic" speed="10.24" pos="93.29" lane="426488942_1" slope="0.00"/>
+        <vehicle id="2" x="307.82" y="786.83" angle="305.52" type="traffic" speed="10.75" pos="195.54" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="20" x="356.87" y="736.83" angle="125.52" type="traffic" speed="9.83" pos="78.30" lane="426488942_1" slope="0.00"/>
+        <vehicle id="21" x="346.14" y="744.49" angle="125.52" type="traffic" speed="8.91" pos="65.11" lane="426488942_1" slope="0.00"/>
+        <vehicle id="3" x="319.62" y="778.41" angle="305.52" type="traffic" speed="9.89" pos="181.03" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="4" x="328.90" y="771.78" angle="305.52" type="traffic" speed="8.20" pos="169.62" lane="-1120503844_0" slope="0.00"/>
+        <vehicle id="7" x="299.24" y="785.46" angle="305.52" type="traffic" speed="9.91" pos="201.72" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="8" x="311.40" y="776.78" angle="305.52" type="traffic" speed="9.58" pos="186.80" lane="-1120503844_1" slope="0.00"/>
+        <vehicle id="9" x="322.62" y="768.77" angle="305.52" type="traffic" speed="8.95" pos="173.02" lane="-1120503844_1" slope="0.00"/>
+    </timestep>
+</fcd-export>

@@ -1,0 +1,48 @@
+servers:
+  diffusion: "http://127.0.0.1:11000/"
+  driver: "http://127.0.0.1:11001/"
+  driver_response_timeout: 180
+
+simulation:
+  ego_id: "0"
+  step_length: 0.1
+  gui_display: false
+  max_sim_time: 10.0
+  use_agent_path: true
+
+agent: uniad
+
+map:
+  name: "boston-seaport"
+  gen_description: "daytime, cloudy, downtown, red buildings, white cars"
+  sumo_cfg_file: "networkFiles/{map_name}/osm.sumocfg"
+  sumo_net_file: "networkFiles/{map_name}/osm.net.xml"
+  sumo_rou_file: "networkFiles/{map_name}/osm.rou.xml"
+
+data:
+  template_path: "data/data_template.pth"
+  nu_scenes_root: "networkFiles/{map_name}/"
+
+image:
+  size: 200
+  target_size: [560, 315]
+
+attack:
+  enable: true
+  mode: "auto"
+  trigger_time: 2.0
+  check_safety: true
+
+llm:
+  api_key_env: "DASHSCOPE_API_KEY"
+  enable: true
+  api_key: ""
+  api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  model: "qwen-coder-plus-1106"
+
+# Original VLM selection remains the default (BEV + scene text).
+# Text-only experiment: --config config-attack-llm.yaml.
+# llm above still generates both trajectory stages.
+selector:
+  mode: "vlm"
+  model: "qwen3-vl-plus"

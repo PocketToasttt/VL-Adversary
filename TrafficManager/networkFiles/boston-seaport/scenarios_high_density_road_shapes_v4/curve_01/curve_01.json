@@ -1,0 +1,196 @@
+{
+  "scene_id": "curve_01",
+  "morphology": "curve",
+  "ego_edge": "8640122",
+  "junction_id": "61496106",
+  "road_length_m": 147.8,
+  "road_lanes": 3,
+  "planned_vehicles": 23,
+  "vehicles": [
+    {
+      "id": "0",
+      "role": "ego",
+      "start_edge": "8640122",
+      "lane": 0,
+      "position_m": 112.8,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "1",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 0,
+      "position_m": 84.8,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "2",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 0,
+      "position_m": 71.3,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "3",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 0,
+      "position_m": 57.8,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "4",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 1,
+      "position_m": 128.3,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "5",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 1,
+      "position_m": 114.8,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "6",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 1,
+      "position_m": 101.3,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "7",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 1,
+      "position_m": 87.8,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "8",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 1,
+      "position_m": 74.3,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "9",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 1,
+      "position_m": 60.8,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "10",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 2,
+      "position_m": 117.8,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "11",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 2,
+      "position_m": 104.3,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "12",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 2,
+      "position_m": 90.8,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "13",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 2,
+      "position_m": 77.3,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "14",
+      "role": "traffic",
+      "start_edge": "8640122",
+      "lane": 2,
+      "position_m": 63.8,
+      "route": "8640122 591217318"
+    },
+    {
+      "id": "15",
+      "role": "traffic",
+      "start_edge": "591217318",
+      "lane": 0,
+      "position_m": 35.0,
+      "route": "591217318 8638390#0"
+    },
+    {
+      "id": "16",
+      "role": "traffic",
+      "start_edge": "591217318",
+      "lane": 0,
+      "position_m": 21.5,
+      "route": "591217318 8638390#0"
+    },
+    {
+      "id": "17",
+      "role": "traffic",
+      "start_edge": "591217318",
+      "lane": 0,
+      "position_m": 8.0,
+      "route": "591217318 8638390#0"
+    },
+    {
+      "id": "18",
+      "role": "traffic",
+      "start_edge": "591217318",
+      "lane": 1,
+      "position_m": 38.0,
+      "route": "591217318 8638390#0"
+    },
+    {
+      "id": "19",
+      "role": "traffic",
+      "start_edge": "591217318",
+      "lane": 1,
+      "position_m": 24.5,
+      "route": "591217318 8638390#0"
+    },
+    {
+      "id": "20",
+      "role": "traffic",
+      "start_edge": "591217318",
+      "lane": 1,
+      "position_m": 11.0,
+      "route": "591217318 8638390#0"
+    },
+    {
+      "id": "21",
+      "role": "traffic",
+      "start_edge": "591217318",
+      "lane": 2,
+      "position_m": 27.5,
+      "route": "591217318 8638390#0"
+    },
+    {
+      "id": "22",
+      "role": "traffic",
+      "start_edge": "591217318",
+      "lane": 2,
+      "position_m": 14.0,
+      "route": "591217318 8638390#0"
+    }
+  ],
+  "purpose": "SUMO traffic preview only; no attack"
+}

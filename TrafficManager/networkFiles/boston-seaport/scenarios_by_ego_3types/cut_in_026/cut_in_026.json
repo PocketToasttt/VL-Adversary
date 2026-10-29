@@ -1,0 +1,29 @@
+{
+  "scene_id": "cut_in_026",
+  "scenario_type": "parallel",
+  "attack_type": "cut_in",
+  "ego_id": 404,
+  "attacker_candidate_id": 403,
+  "attack_type_cn": "强行切入",
+  "description": "并行群组 @ 518404079#2 (91m, 2车道)",
+  "focus_key": "518404079#2",
+  "scene_vehicle_ids": [
+    403,
+    404,
+    405
+  ],
+  "background_vehicle_ids": [
+    406,
+    407
+  ],
+  "vehicle_count": 5,
+  "depart_range": [
+    0.0,
+    0.0
+  ],
+  "generated_files": {
+    "route_file": "TrafficManager/networkFiles/boston-seaport/scenarios_by_ego_3types/cut_in_026/cut_in_026.rou.xml",
+    "config_file": "TrafficManager/networkFiles/boston-seaport/scenarios_by_ego_3types/cut_in_026/cut_in_026.sumocfg"
+  },
+  "timestamp": "2026-07-19 20:38:06"
+}
