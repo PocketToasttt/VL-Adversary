@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="144" height="48" viewBox="0 0 144 48">
-  <rect x="3" y="5" width="140" height="42" rx="9" fill="#4C4337" opacity=".12"/>
-  <rect x="2" y="3" width="140" height="42" rx="9" fill="#FAF3C6" stroke="#B1A469"/>
-  <rect x="11" y="12" width="24" height="24" rx="6" fill="#EEE4A3"/>
-  <path d="M18 20L22 24L18 28M24 28H29" fill="none" stroke="#706020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="43" y="29" fill="#433B21" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Quick Start</text>
-  <path d="M126 21L129 24L126 27" fill="none" stroke="#706020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2" y="3" width="140" height="42" rx="9" fill="#142B2B" stroke="#4B7E70"/>
+  <rect x="11" y="12" width="24" height="24" rx="6" fill="#1E453C"/>
+  <path d="M18 20L22 24L18 28M24 28H29" fill="none" stroke="#99E9BF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="43" y="29" fill="#F2FDF8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Quick Start</text>
+  <path d="M126 21L129 24L126 27" fill="none" stroke="#99E9BF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

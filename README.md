@@ -1,6 +1,9 @@
 <a name="top"></a>
 <h1 align="center">
-  <img src="docs/images/project-header.svg" width="960" alt="VL-Adversary">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="docs/images/project-header.svg">
+    <img src="docs/images/project-header.gif" width="960" alt="VL-Adversary — closed-loop driving evaluation">
+  </picture>
 </h1>
 
 <p align="center"><strong>Vision-Language-Driven Safety-Critical Trajectory Generation for Autonomous Driving</strong></p>
