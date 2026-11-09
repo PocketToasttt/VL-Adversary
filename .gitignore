@@ -206,6 +206,17 @@ test_results/
 evaluation_results/
 output/
 logs/
+# Simulation and evaluation artifacts copied outside their output directories.
+drive_arena.pkl
+attack_record.json
+attack_log.txt
+selection_audit.json
+run_status.json
+*.done.json
+trajectory_realism_results.json
+trajectory_realism_summary.csv
+trajectory_realism_per_scene.csv
+trajectory_realism_report.txt
 TrafficManager/temp_ego_*.yaml
 *.ckpt
 *.safetensors
