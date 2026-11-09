@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="48" viewBox="0 0 144 48">
+  <rect x="3" y="5" width="140" height="42" rx="9" fill="#4C4337" opacity=".12"/>
+  <rect x="2" y="3" width="140" height="42" rx="9" fill="#E5F0FA" stroke="#8EAAC3"/>
+  <rect x="11" y="12" width="24" height="24" rx="6" fill="#CADFF2"/>
+  <path d="M17 24H22M24 22L29 18M24 26L29 30" fill="none" stroke="#315F90" stroke-width="1.5"/>
+  <g fill="#315F90">
+    <circle cx="17" cy="24" r="2"/><circle cx="23" cy="24" r="2"/><circle cx="29" cy="18" r="2"/><circle cx="29" cy="30" r="2"/>
+  </g>
+  <text x="43" y="29" fill="#243A4D" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Method</text>
+  <path d="M126 21L129 24L126 27" fill="none" stroke="#315F90" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

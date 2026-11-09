@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="48" viewBox="0 0 144 48">
+  <rect x="3" y="5" width="140" height="42" rx="9" fill="#4C4337" opacity=".12"/>
+  <rect x="2" y="3" width="140" height="42" rx="9" fill="#FBE6D5" stroke="#B89B86"/>
+  <rect x="11" y="12" width="24" height="24" rx="6" fill="#F2D2B7"/>
+  <rect x="16.5" y="19" width="13" height="10" rx="2" fill="none" stroke="#8C4E2B" stroke-width="1.5"/>
+  <path d="M22 21.5L26 24L22 26.5Z" fill="#8C4E2B"/>
+  <text x="41" y="29" fill="#453326" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Video Gallery</text>
+  <path d="M129 21L132 24L129 27" fill="none" stroke="#8C4E2B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
