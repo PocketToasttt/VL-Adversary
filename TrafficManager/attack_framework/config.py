@@ -13,6 +13,7 @@ class AttackRuntimeConfig:
     attack_type: str = ""
     trigger_time: float = 5.0
     check_safety: bool = True
+    llm_cut_in_replanning: bool = True
 
     @classmethod
     def from_mapping(cls, values: Optional[Mapping[str, Any]]) -> "AttackRuntimeConfig":
@@ -24,6 +25,7 @@ class AttackRuntimeConfig:
             attack_type=str(config.get("attack_type", "")),
             trigger_time=float(config.get("trigger_time", 5.0)),
             check_safety=bool(config.get("check_safety", True)),
+            llm_cut_in_replanning=bool(config.get("llm_cut_in_replanning", True)),
         )
 
 

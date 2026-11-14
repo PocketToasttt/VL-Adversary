@@ -2,7 +2,7 @@
 
 import math
 from numbers import Real
-from typing import Any, Dict, List, Mapping
+from typing import Any, Dict, List, Mapping, Optional
 
 import numpy as np
 
@@ -98,6 +98,8 @@ class GeneratedAttackCodeExecutor:
         end_state: Mapping[str, Any],
         sumo_topology: Mapping[str, Any],
         attack_type: str = "",
+        *,
+        cut_in_ego_state: Optional[Mapping[str, Any]] = None,
     ) -> List[Dict[str, Any]]:
         execution_scope = {"np": np, "math": math}
         exec(generated_code, execution_scope)
@@ -128,6 +130,17 @@ class GeneratedAttackCodeExecutor:
                     raise ValueError(
                         f"Trajectory point {index} field {field} must be a finite number"
                     )
+        if cut_in_ego_state is not None:
+            ego_lane = sumo_topology.get("lanes", {}).get(
+                sumo_topology.get("ego_lane_id"), {},
+            )
+            return GeneratedAttackCodeExecutor.replan_cut_in(
+                cut_in_ego_state,
+                start_state,
+                speed_limit=float(ego_lane.get("speed_limit", 13.89)),
+                goal_state=end_state,
+                speed_profile=[float(point["v"]) for point in trajectory],
+            )
         return GeneratedAttackCodeExecutor._enforce_vehicle_dynamics(
             trajectory,
             start_state,
@@ -172,18 +185,17 @@ class GeneratedAttackCodeExecutor:
         point_count: int = 30,
         dt: float = 0.1,
         speed_limit: float = 13.89,
+        *,
+        goal_state: Optional[Mapping[str, Any]] = None,
+        speed_profile: Optional[List[float]] = None,
     ) -> List[Dict[str, Any]]:
         ego_heading = float(ego_state["heading"])
         desired_longitudinal_gap = 2.0
-        prediction_distance = desired_longitudinal_gap
-        target_x = (
-            float(ego_state["x"])
-            + prediction_distance * math.cos(ego_heading)
-        )
-        target_y = (
-            float(ego_state["y"])
-            + prediction_distance * math.sin(ego_heading)
-        )
+        if goal_state is None:
+            target_x = float(ego_state["x"]) + desired_longitudinal_gap * math.cos(ego_heading)
+            target_y = float(ego_state["y"]) + desired_longitudinal_gap * math.sin(ego_heading)
+        else:
+            target_x, target_y = float(goal_state["x"]), float(goal_state["y"])
         attacker_x = float(attacker_state["x"])
         attacker_y = float(attacker_state["y"])
         attacker_speed = max(0.0, float(attacker_state["speed"]))
@@ -196,13 +208,14 @@ class GeneratedAttackCodeExecutor:
             relative_x * cos_heading + relative_y * sin_heading
         )
         merge_duration = 2.1
+        speed_limit = max(0.0, float(speed_limit))
         target_speed = float(np.clip(
             float(ego_state["speed"])
             + (
                 desired_longitudinal_gap - current_longitudinal_gap
             ) / merge_duration,
             0.0,
-            max(0.0, float(speed_limit)),
+            speed_limit,
         ))
         target_dx = target_x - attacker_x
         target_dy = target_y - attacker_y
@@ -252,8 +265,16 @@ class GeneratedAttackCodeExecutor:
             if index == 0:
                 speed = attacker_speed
             else:
+                # Keep the full merge horizon even if the model proposes fewer samples.
+                reference_speed = target_speed
+                if speed_profile:
+                    reference_speed = float(np.clip(
+                        speed_profile[min(index, len(speed_profile) - 1)],
+                        0.0,
+                        speed_limit,
+                    ))
                 speed = float(np.clip(
-                    target_speed,
+                    reference_speed,
                     previous_speed - 5.0 * dt,
                     previous_speed + 3.0 * dt,
                 ))

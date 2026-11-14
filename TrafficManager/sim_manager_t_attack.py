@@ -592,11 +592,32 @@ class SimulationManager:
             topology.get("ego_lane_id"),
             {},
         )
-        points = GeneratedAttackCodeExecutor.replan_cut_in(
-            ego_state,
-            attacker_state,
-            speed_limit=float(ego_lane.get("speed_limit", 13.89)),
-        )
+        replan_source = "rule_based"
+        points = None
+        if self.attack_runtime.llm_cut_in_replanning:
+            try:
+                generated = self.trajectory_generator.generate(
+                    AttackType.CUT_IN,
+                    ego_state,
+                    attacker_state,
+                    topology,
+                    runtime_cut_in=True,
+                )
+                points = generated.points
+                replan_source = "llm"
+            except Exception as error:
+                replan_source = "rule_based_fallback"
+                print(
+                    f"LLM cut-in replan failed ({type(error).__name__}); "
+                    "using rule-based fallback",
+                    flush=True,
+                )
+        if points is None:
+            points = GeneratedAttackCodeExecutor.replan_cut_in(
+                ego_state,
+                attacker_state,
+                speed_limit=float(ego_lane.get("speed_limit", 13.89)),
+            )
         self.attack_injector.add(
             self.active_attacker_id,
             points,
@@ -605,7 +626,7 @@ class SimulationManager:
         self.last_cut_in_replan_time = simulation_time
         with open(self.attack_log_path, "a", encoding="utf-8") as attack_log:
             attack_log.write(
-                f"cut_in_replan=true, timestamp={simulation_time:.1f}, "
+                f"cut_in_replan=true, source={replan_source}, timestamp={simulation_time:.1f}, "
                 f"vehicle={self.active_attacker_id}, "
                 f"ego=({ego_state['x']:.2f},{ego_state['y']:.2f}), "
                 f"attacker=({attacker_state['x']:.2f},{attacker_state['y']:.2f}), "

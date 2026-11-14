@@ -61,6 +61,8 @@ scene = json.loads((SCENE_DIR / (SCENE_ID + ".json")).read_text(encoding="utf-8"
 RUNTIME_CONFIG = yaml.safe_load((ROOT / "TrafficManager/config-attack.yaml").read_text(encoding="utf-8"))
 RUNTIME_CONFIG["simulation"].update(ego_id=str(scene["ego_id"]), gui_display=False, use_agent_path=False, max_sim_time=10.0)
 RUNTIME_CONFIG["attack"].update(enable=True, mode="auto", trigger_time=2.0)
+# Keep trajectory updates fixed in the selector-only comparison protocol.
+RUNTIME_CONFIG["attack"]["llm_cut_in_replanning"] = False
 RUNTIME_CONFIG["selector"] = dict(VARIANTS[args.variant])
 if args.variant in ('vlm_image', 'vlm_text'):
     RUNTIME_CONFIG["selector"]["model"] = args.vision_model
