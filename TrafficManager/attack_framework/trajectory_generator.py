@@ -37,16 +37,15 @@ class TwoStageTrajectoryGenerator:
         attacker_state: Mapping[str, Any],
         sumo_topology: Mapping[str, Any],
         *,
-        runtime_cut_in: bool = False,
+        runtime_replan: bool = False,
     ) -> GeneratedAttackTrajectory:
-        if runtime_cut_in and attack_type != AttackType.CUT_IN:
-            raise ValueError("Runtime replanning is only supported for cut-in")
-        timeout = 30 if runtime_cut_in else 120
+        timeout = 30 if runtime_replan else 120
         goal_prompt = build_goal_function_prompt(attack_type, sumo_topology)
         replan_context = ""
-        if runtime_cut_in:
+        if runtime_replan:
             replan_context = (
-                "\n这是正在进行的切入重规划。必须从当前车辆状态继续，不得重新选择车辆或攻击类型。"
+                f"\n这是正在进行的 {attack_type.value} 攻击重规划。"
+                "必须从当前车辆状态继续，不得重新选择车辆或攻击类型。"
                 f"\n当前主车状态：{dict(ego_state)}"
                 f"\n当前攻击车状态：{dict(attacker_state)}"
             )
@@ -69,7 +68,7 @@ class TwoStageTrajectoryGenerator:
                 sumo_topology,
             )
         except Exception as error:
-            if runtime_cut_in:
+            if runtime_replan:
                 raise
             print(
                 f"LLM stage 1 execution failed, using constrained fallback: {error}",
@@ -215,7 +214,7 @@ class TwoStageTrajectoryGenerator:
         print("=" * 60 + "\n", flush=True)
         try:
             replan_options = (
-                {"cut_in_ego_state": ego_state} if runtime_cut_in else {}
+                {"replan_ego_state": ego_state} if runtime_replan else {}
             )
             points = self.code_executor.plan_trajectory(
                 path_code,
@@ -226,7 +225,7 @@ class TwoStageTrajectoryGenerator:
                 **replan_options,
             )
         except Exception as error:
-            if runtime_cut_in:
+            if runtime_replan:
                 raise
             print(
                 f"LLM stage 2 execution failed, using constrained fallback: {error}",

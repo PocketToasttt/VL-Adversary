@@ -99,7 +99,7 @@ class GeneratedAttackCodeExecutor:
         sumo_topology: Mapping[str, Any],
         attack_type: str = "",
         *,
-        cut_in_ego_state: Optional[Mapping[str, Any]] = None,
+        replan_ego_state: Optional[Mapping[str, Any]] = None,
     ) -> List[Dict[str, Any]]:
         execution_scope = {"np": np, "math": math}
         exec(generated_code, execution_scope)
@@ -130,22 +130,25 @@ class GeneratedAttackCodeExecutor:
                     raise ValueError(
                         f"Trajectory point {index} field {field} must be a finite number"
                     )
-        if cut_in_ego_state is not None:
+        if replan_ego_state is not None and attack_type == "cut_in":
             ego_lane = sumo_topology.get("lanes", {}).get(
                 sumo_topology.get("ego_lane_id"), {},
             )
             return GeneratedAttackCodeExecutor.replan_cut_in(
-                cut_in_ego_state,
+                replan_ego_state,
                 start_state,
                 speed_limit=float(ego_lane.get("speed_limit", 13.89)),
                 goal_state=end_state,
                 speed_profile=[float(point["v"]) for point in trajectory],
             )
+        if replan_ego_state is not None and len(trajectory) < 30:
+            trajectory = trajectory + [trajectory[-1]] * (30 - len(trajectory))
         return GeneratedAttackCodeExecutor._enforce_vehicle_dynamics(
             trajectory,
             start_state,
             end_state,
             attack_type,
+            runtime_replan=replan_ego_state is not None,
         )
 
     @staticmethod
@@ -299,6 +302,8 @@ class GeneratedAttackCodeExecutor:
         end_state: Mapping[str, Any],
         attack_type: str,
         dt: float = 0.1,
+        *,
+        runtime_replan: bool = False,
     ) -> List[Dict[str, Any]]:
         start_x = float(start_state["x"])
         start_y = float(start_state["y"])
@@ -312,6 +317,10 @@ class GeneratedAttackCodeExecutor:
                 trajectory,
                 start_state,
                 dt,
+                initial_deceleration=(
+                    max(0.0, -float(start_state.get("acceleration", 0.0)))
+                    if runtime_replan else 0.0
+                ),
             )
 
         if attack_type in ("cut_in", "opposite_direction_intrusion"):
@@ -379,6 +388,8 @@ class GeneratedAttackCodeExecutor:
                     desired_speed = 0.0
                 elif attack_type == "opposite_direction_intrusion":
                     desired_speed = opposite_target_speed
+                    if runtime_replan:
+                        desired_speed = min(desired_speed, float(raw_point["v"]))
                 else:
                     desired_speed = max(0.0, float(raw_point["v"]))
                 if attack_type == "opposite_direction_intrusion":
@@ -416,6 +427,8 @@ class GeneratedAttackCodeExecutor:
         trajectory: List[Dict[str, Any]],
         start_state: Mapping[str, Any],
         dt: float,
+        *,
+        initial_deceleration: float = 0.0,
     ) -> List[Dict[str, Any]]:
         start_x = float(start_state["x"])
         start_y = float(start_state["y"])
@@ -439,15 +452,16 @@ class GeneratedAttackCodeExecutor:
         deceleration = float(np.clip(required_deceleration, 5.0, 8.0))
         max_jerk = 8.0
         current_speed = start_speed
-        current_deceleration = 0.0
+        current_deceleration = min(initial_deceleration, 8.0)
         longitudinal = 0.0
         result = []
         for index in range(len(trajectory)):
             if index > 0 and current_speed > 0.0:
-                next_deceleration = min(
+                next_deceleration = float(np.clip(
                     deceleration,
+                    current_deceleration - max_jerk * dt,
                     current_deceleration + max_jerk * dt,
-                )
+                ))
                 next_speed = max(
                     0.0,
                     current_speed

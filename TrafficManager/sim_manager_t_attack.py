@@ -147,8 +147,8 @@ class SimulationManager:
         self.attack_triggered = False
         self.active_attack_type = None
         self.active_attacker_id = None
-        self.last_cut_in_replan_time = None
-        self.cut_in_completed = False
+        self.last_attack_replan_time = None
+        self.attack_replan_completed = False
         self.attack_log_path = os.path.join(self.result_path, "attack_log.txt")
 
     @staticmethod
@@ -475,7 +475,7 @@ class SimulationManager:
         self.attack_triggered = True
         self.active_attack_type = decision.attack_type
         self.active_attacker_id = decision.target_vehicle_id
-        self.last_cut_in_replan_time = simulation_time
+        self.last_attack_replan_time = simulation_time
         if self.scorer is not None:
             self.scorer.data["metas"].update({
                 "scene_name": self.scene_name,
@@ -532,16 +532,19 @@ class SimulationManager:
             flush=True,
         )
 
-    def update_cut_in_attack(self, simulation_time: float) -> None:
+    def update_attack_trajectory(self, simulation_time: float) -> None:
+        attack_type = self.active_attack_type
         if (
-            self.active_attack_type != AttackType.CUT_IN
-            or self.cut_in_completed
+            attack_type is None
+            or self.attack_replan_completed
             or self.active_attacker_id is None
         ):
             return
+        if not self.attack_runtime.llm_replanning and attack_type != AttackType.CUT_IN:
+            return
         if (
-            self.last_cut_in_replan_time is not None
-            and simulation_time - self.last_cut_in_replan_time < 0.5 - 1e-6
+            self.last_attack_replan_time is not None
+            and simulation_time - self.last_attack_replan_time < 0.5 - 1e-6
         ):
             return
 
@@ -558,7 +561,7 @@ class SimulationManager:
         )
         if target_car is None:
             print(
-                f"Cut-in replan skipped: vehicle {self.active_attacker_id} "
+                f"{attack_type.value} replan skipped: vehicle {self.active_attacker_id} "
                 "is outside the observable area",
                 flush=True,
             )
@@ -568,51 +571,70 @@ class SimulationManager:
             self.vehicles["egoCar"]
         ).to_prompt_dict()
         attacker_state = VehicleState.from_limsim(target_car).to_prompt_dict()
-        lane_ids_known = (
-            ego_state["lane_id"] != "unknown"
-            and attacker_state["lane_id"] != "unknown"
-        )
-        if lane_ids_known and ego_state["lane_id"] == attacker_state["lane_id"]:
-            self.cut_in_completed = True
+        completed = False
+        if attack_type == AttackType.CUT_IN:
+            completed = (
+                ego_state["lane_id"] != "unknown"
+                and ego_state["lane_id"] == attacker_state["lane_id"]
+            )
+        elif attack_type == AttackType.BRAKE_CHECK:
+            completed = attacker_state["speed"] <= 0.01
+            speeds = target_car.get("speedQ", ())
+            if len(speeds) >= 2:
+                attacker_state["acceleration"] = (speeds[-1] - speeds[-2]) / self.STEP_LENGTH
+        elif attack_type == AttackType.OPPOSITE_DIRECTION_INTRUSION:
+            heading = ego_state["heading"]
+            # End updates once the oncoming vehicle has passed the ego longitudinally.
+            relative_forward = (
+                (attacker_state["x"] - ego_state["x"]) * math.cos(heading)
+                + (attacker_state["y"] - ego_state["y"]) * math.sin(heading)
+            )
+            completed = relative_forward < 0.0
+        if completed:
+            self.attack_replan_completed = True
             with open(self.attack_log_path, "a", encoding="utf-8") as attack_log:
                 attack_log.write(
-                    f"cut_in_completed=true, timestamp={simulation_time:.1f}, "
+                    f"{attack_type.value}_completed=true, timestamp={simulation_time:.1f}, "
                     f"vehicle={self.active_attacker_id}, "
                     f"lane={ego_state['lane_id']}\n"
                 )
             print(
-                f"Cut-in completed at SUMO={simulation_time:.1f}s: "
+                f"{attack_type.value} completed at SUMO={simulation_time:.1f}s: "
                 f"vehicle={self.active_attacker_id}, lane={ego_state['lane_id']}",
                 flush=True,
             )
             return
 
         topology = self.build_sumo_topology()
-        ego_lane = topology.get("lanes", {}).get(
-            topology.get("ego_lane_id"),
-            {},
-        )
         replan_source = "rule_based"
         points = None
-        if self.attack_runtime.llm_cut_in_replanning:
+        if self.attack_runtime.llm_replanning:
             try:
                 generated = self.trajectory_generator.generate(
-                    AttackType.CUT_IN,
+                    attack_type,
                     ego_state,
                     attacker_state,
                     topology,
-                    runtime_cut_in=True,
+                    runtime_replan=True,
                 )
                 points = generated.points
                 replan_source = "llm"
             except Exception as error:
-                replan_source = "rule_based_fallback"
                 print(
-                    f"LLM cut-in replan failed ({type(error).__name__}); "
-                    "using rule-based fallback",
+                    f"LLM {attack_type.value} replan failed ({type(error).__name__})",
                     flush=True,
                 )
+                if attack_type != AttackType.CUT_IN:
+                    self.last_attack_replan_time = simulation_time
+                    with open(self.attack_log_path, "a", encoding="utf-8") as attack_log:
+                        attack_log.write(
+                            f"{attack_type.value}_replan=false, source=previous_segment, "
+                            f"timestamp={simulation_time:.1f}, vehicle={self.active_attacker_id}\n"
+                        )
+                    return
+                replan_source = "rule_based_fallback"
         if points is None:
+            ego_lane = topology.get("lanes", {}).get(topology.get("ego_lane_id"), {})
             points = GeneratedAttackCodeExecutor.replan_cut_in(
                 ego_state,
                 attacker_state,
@@ -623,17 +645,18 @@ class SimulationManager:
             points,
             simulation_time,
         )
-        self.last_cut_in_replan_time = simulation_time
+        self.last_attack_replan_time = simulation_time
         with open(self.attack_log_path, "a", encoding="utf-8") as attack_log:
             attack_log.write(
-                f"cut_in_replan=true, source={replan_source}, timestamp={simulation_time:.1f}, "
+                f"{attack_type.value}_replan=true, source={replan_source}, "
+                f"timestamp={simulation_time:.1f}, "
                 f"vehicle={self.active_attacker_id}, "
                 f"ego=({ego_state['x']:.2f},{ego_state['y']:.2f}), "
                 f"attacker=({attacker_state['x']:.2f},{attacker_state['y']:.2f}), "
                 f"target_speed={points[-1]['v']:.2f}\n"
             )
         print(
-            f"Cut-in trajectory updated at SUMO={simulation_time:.1f}s: "
+            f"{attack_type.value} trajectory updated at SUMO={simulation_time:.1f}s: "
             f"vehicle={self.active_attacker_id}, "
             f"target_speed={points[-1]['v']:.2f}m/s",
             flush=True,
@@ -870,7 +893,7 @@ class SimulationManager:
                 ## Because first two frames, drive agents may not ready
                 print(f"Use agent path to drive.")
                 limsim_trajectories[self.EGO_ID] = ego_traj
-            self.update_cut_in_attack(simulation_time)
+            self.update_attack_trajectory(simulation_time)
             limsim_trajectories = self.attack_injector.merge(
                 limsim_trajectories,
                 simulation_time,

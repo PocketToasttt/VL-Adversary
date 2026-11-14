@@ -32,6 +32,7 @@ attack:
   mode: "auto"
   trigger_time: 2.0
   check_safety: true
+  llm_replanning: true
 
 llm:
   api_key_env: "DASHSCOPE_API_KEY"

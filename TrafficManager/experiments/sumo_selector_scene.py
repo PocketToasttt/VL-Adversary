@@ -62,7 +62,7 @@ RUNTIME_CONFIG = yaml.safe_load((ROOT / "TrafficManager/config-attack.yaml").rea
 RUNTIME_CONFIG["simulation"].update(ego_id=str(scene["ego_id"]), gui_display=False, use_agent_path=False, max_sim_time=10.0)
 RUNTIME_CONFIG["attack"].update(enable=True, mode="auto", trigger_time=2.0)
 # Keep trajectory updates fixed in the selector-only comparison protocol.
-RUNTIME_CONFIG["attack"]["llm_cut_in_replanning"] = False
+RUNTIME_CONFIG["attack"]["llm_replanning"] = False
 RUNTIME_CONFIG["selector"] = dict(VARIANTS[args.variant])
 if args.variant in ('vlm_image', 'vlm_text'):
     RUNTIME_CONFIG["selector"]["model"] = args.vision_model
@@ -172,7 +172,7 @@ class FirstSceneExperiment(existing.SimulationManager):
                 analysis = existing.analyze_scene(self.vehicles["egoCar"], self.vehicles.get("carInAoI", []), self.build_sumo_topology())
                 print("SELECTION INPUT (shared text):\n" + analysis.description, flush=True)
                 self.launch_attack(simulation_time)
-            self.update_cut_in_attack(simulation_time)
+            self.update_attack_trajectory(simulation_time)
             self.model.setTrajectories(self.attack_injector.merge({}, simulation_time))
         return True
 

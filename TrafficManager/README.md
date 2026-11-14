@@ -2,12 +2,15 @@
 
 The main adversarial entry point is `sim_manager_t_attack.py`; `attack_framework/` contains selection, planning, and injection modules.
 
-During an unfinished cut-in, eligible runtime updates (at least 0.5 s of
-simulation time apart) rerun both LLM planning stages with the latest vehicle
-states. The selected vehicle and attack type stay fixed, and the simulator
-waits for the replanned segment before advancing. Failed LLM updates use the
-rule-based replanner. Set `attack.llm_cut_in_replanning: false` to use the
-rule-based replanner for all cut-in updates.
+Brake-check, cut-in, and opposite-direction intrusion all rerun both LLM
+planning stages during eligible runtime updates, at least 0.5 s of simulation
+time apart. Updates use the latest vehicle states and keep the selected
+vehicle and attack type fixed. They stop when the braking vehicle has stopped,
+the cut-in vehicle has joined the ego lane, or the oncoming vehicle has passed
+the ego vehicle, respectively. If an LLM update fails, cut-in uses its
+rule-based fallback and the other maneuvers keep their current segment.
+Set `attack.llm_replanning: false` to use rule-based cut-in updates and the
+initial LLM-generated segments for the other maneuvers.
 
 Run commands from the project root. See the [English guide](../docs/QUICKSTART.md) or [中文指南](../docs/QUICKSTART_CN.md) for environment preparation, service startup, model configuration, and scene examples.
 
